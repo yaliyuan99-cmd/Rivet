@@ -1,0 +1,27 @@
+F 02 Evaluation / editor / Desktop / Light @8379,45568 1440x1103 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1103 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n"[Regular 12 lh150% #586d65] "● Tasks\n\n"[SemiBold 12 lh150% #187b66] " Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1103 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / TASKS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1031 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "02 EVALUATION / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Build an evaluation\n"[SemiBold 38 lh115% #182723] "Assess evidence for an antibiotic resistance mechanism\n\n"[Regular 14 lh150% #586d65] "DRAFT / PRIVATE / SAVED 14:20 UTC"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x639 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x639 Vgap=26 pad=0,0,0,0
+F 01 / Task definition @0,0 780x320 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "01 / Task definition"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "TASK TITLE\n"[Mono Regular 10 lh150% #586d65] "Assess evidence for an antibiotic resistance mechanism"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "DOMAIN\n"[Mono Regular 10 lh150% #586d65] "Biology / Microbiology ▾"[Regular 14 lh150% #182723]
+F Field @0,212 780x108 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x80 "PROMPT\n"[Mono Regular 10 lh150% #586d65] "Using E01–E03, assess whether increased AcrAB-TolC efflux explains the ciprofloxacin resistance phenotype. Separate observation from inference, discuss alternatives, and propose a discriminating experiment. Cite sources; do not treat association as causality."[Regular 14 lh150% #182723]
+T @0,346 780x293 "02 / Rubric · Total 0–100\n\n"[SemiBold 21 lh150% text/primary] "Mechanistic reasoning / 30\nConnect efflux to the MIC shift without causal overreach.\n\nEvidence attribution / 30\nCite E01–E03; distinguish observation and inference.\n\nAlternative explanations / 25\nAddress permeability and absent rescue controls.\n\nCalibrated conclusion / 15\nState uncertainty and a discriminating experiment."[Regular 14 lh150% text/primary]
+T @828,0 300x535 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "03 / SELECT 2–4 MODELS\n3 selected\n\n☑ ASTER 3.2\naster-3.2-20261001\n\n☑ MERIDIAN 2.1\nmeridian-2.1-20260918\n\n☑ LUMEN 4 MINI\nlumen-4-mini-20261004\n\nRUN SETTINGS\nTemperature 0.2 · Seed 42 · 8k output\n\nFreeze pins the prompt, rubric, sources and revisions. Later changes create v1.1.\n\nOwner Maya Chen · Helix Lab\nDataset DS-BIO-07 v1.0\n\n⌑ ACTION UNAVAILABLE\nExpert review · You own this task\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,865 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 133x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 101x20 "Review & freeze"[SemiBold 13 lh150% text/on-accent]
+F Action @145,12 97x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 65x20 "Save draft"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,947 119x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 87x20 "Expert review"[SemiBold 13 lh150% text/disabled]

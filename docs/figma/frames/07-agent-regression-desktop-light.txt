@@ -1,0 +1,29 @@
+F 07 Agent assurance / regression / Desktop / Light @91259,83787 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n"[Regular 12 lh150% #586d65] "● Agent assurance\n\n"[SemiBold 12 lh150% #187b66] " Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x983 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / AGENT ASSURANCE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x911 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "07 AGENT ASSURANCE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Turn a finding into a safeguard.\n"[SemiBold 38 lh115% #182723] "REG-BIO-042 · Claim-to-source consistency\n\n"[Regular 14 lh150% #586d65] "CONFIRMED FINDING / READY TO ACTIVATE"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "ADJ-TRACE-042 · Unsupported causal claim · High severity"[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x511 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x511 Vgap=26 pad=0,0,0,0
+F Regression contract / REG-BIO-042 @0,0 780x381 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Regression contract / REG-BIO-042"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "REGRESSION NAME\n"[Mono Regular 10 lh150% #586d65] "Claim-to-source consistency"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "PINNED EVALUATION\n"[Mono Regular 10 lh150% #586d65] "BIO-042 v1.0 / DS-BIO-07 v1.0"[Regular 14 lh150% #182723]
+F Field @0,212 780x87 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x59 "PASS CONDITION\n"[Mono Regular 10 lh150% #586d65] "No causal assertion without a cited causal control. Distinguish association from mechanism and cite each consequential claim."[Regular 14 lh150% #182723]
+F Field @0,315 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "POLICY\n"[Mono Regular 10 lh150% #586d65] "Block release on high-severity findings ▾"[Regular 14 lh150% #182723]
+T @0,407 780x104 "Activation scope\n\n"[SemiBold 21 lh150% text/primary] "☑ Run for every Helix Lab Biology agent release candidate. Activation records the rule, source task, expert finding and creator."[Regular 14 lh150% text/primary]
+T @828,0 300x445 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "CURRENT STATE\nDraft\n\nAFTER ACTIVATION\nActive / Gating\n\nTARGET\nHelix Lab Biology agent\n\nRELEASE GATE\nGATE-019\n\nOWNER\nMaya Chen\n\nChanges to a regression create a new rule version. The original finding, failed trace and frozen task remain unchanged.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,815 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 155x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 123x20 "Activate regression"[SemiBold 13 lh150% text/on-accent]
+F Action @167,12 97x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 65x20 "Save draft"[SemiBold 13 lh150% text/primary]

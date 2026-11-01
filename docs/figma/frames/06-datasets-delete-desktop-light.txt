@@ -1,0 +1,24 @@
+F 06 Datasets / delete / Desktop / Light @91259,81857 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n"[Regular 12 lh150% #586d65] "● Datasets\n\n"[SemiBold 12 lh150% #187b66] " Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x939 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / DATASETS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x867 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "06 DATASETS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Delete this dataset?\n"[SemiBold 38 lh115% #182723] "DS-BIO-07 v1.0 · Resistance evidence pack\n\n"[Regular 14 lh150% #586d65] "DELETE CONFIRMATION"[Mono Regular 11 lh150% #8b5d1d]
+F Alert @48,200 1128x52 fill=surface/support-1 Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "Referenced by frozen BIO-042 v1.0. Audit snapshots will be retained."[Regular 13 lh150% status/warning]
+F Analytical workspace @48,278 1128x467 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x467 Vgap=26 pad=0,0,0,0
+T @0,0 780x293 "Deletion impact\n\n"[SemiBold 21 lh150% text/primary] "Library visibility\nRemoved\n\nNew task attachments\nPrevented\n\nFrozen source snapshots\nRetained for authorized audit\n\nExisting reports\nUnchanged"[Regular 14 lh150% text/primary]
+F Delete Resistance evidence pack? @0,319 780x148 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Delete Resistance evidence pack?"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "TYPE DS-BIO-07 TO CONFIRM\n"[Mono Regular 10 lh150% #586d65] "DS-BIO-07"[Regular 14 lh150% #182723]
+T @0,130 780x18 "☑ I understand this removes the library entry permanently, but does not erase retained audit snapshots."[Regular 12 lh150% text/secondary]
+T @828,0 300x373 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "DATASET\nDS-BIO-07 v1.0\n\nOWNER\nMaya Chen\n\nATTACHED TASK\nBIO-042 v1.0\n\nREPORT\nRPT-BIO-042 v1.0\n\nThis action cannot be undone from the library. Use Keep dataset to cancel without making changes.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,771 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 124x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 92x20 "Delete dataset"[SemiBold 13 lh150% text/on-accent]
+F Action @136,12 115x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 83x20 "Keep dataset"[SemiBold 13 lh150% text/primary]

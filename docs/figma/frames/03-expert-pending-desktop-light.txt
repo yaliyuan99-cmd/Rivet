@@ -1,0 +1,22 @@
+F 03 Expert review / pending / Desktop / Light @91259,62615 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n"[Regular 12 lh150% #586d65] "● Review queue\n\n"[SemiBold 12 lh150% #187b66] " Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nDr. Samira Patel\nApplicant\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x987 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / REVIEW QUEUE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x915 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "03 EXPERT REVIEW / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Your application is in review\n"[SemiBold 38 lh115% #182723] "APP-028 · Dr. Samira Patel · Biology\n\n"[Regular 14 lh150% #586d65] "APPLICATION PENDING / APP-028"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "Submitted 15 Oct 2026, 13:05 UTC. Member access is unchanged; expert privileges remain locked."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x445 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x423 Vgap=26 pad=0,0,0,0
+T @0,0 780x293 "Application timeline\n\n"[SemiBold 21 lh150% text/primary] "Identity and affiliation\nReceived / Dr. Samira Patel\n\nBiology credential\nAdmin verification in progress\n\nConflict commitment\nAcknowledged\n\nIndependent review access\nLocked until credential approval"[Regular 14 lh150% text/primary]
+T @0,319 780x104 "What happens next\n\n"[SemiBold 21 lh150% text/primary] "An admin will inspect the credential evidence and record a domain-specific decision. If more evidence is needed, you will be notified. Typical response: two working days."[Regular 14 lh150% text/primary]
+T @828,0 300x445 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "APPLICANT\nDr. Samira Patel\n\nREQUESTED DOMAIN\nBiology\n\nAPPLICATION\nAPP-028\n\nEVIDENCE\nSynthetic PhD and publication fixtures\n\nExpert access is domain-specific. A workspace role never grants review credentials.\n\n⌑ ACTION UNAVAILABLE\nOpen review queue · Verified Biology credential required\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,749 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 137x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 105x20 "View application"[SemiBold 13 lh150% text/on-accent]
+F Action @149,12 166x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 134x20 "Withdraw application"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,831 154x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 122x20 "Open review queue"[SemiBold 13 lh150% text/disabled]

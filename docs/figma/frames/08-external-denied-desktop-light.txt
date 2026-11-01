@@ -1,0 +1,18 @@
+F 08 External access / denied / Desktop / Light @91259,91975 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Application @0,0 1440x937 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1440x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1344x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / SECURE ACCESS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1440x865 Vgap=26 pad=40,48,40,48
+T @48,40 1344x134 "08 EXTERNAL ACCESS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "No access was granted\n"[SemiBold 38 lh115% #182723] "You declined the connection request.\n\n"[Regular 14 lh150% #586d65] "OAUTH-042 / REQUEST DENIED"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1344x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1312x20 "No access was granted. No token was issued."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1344x465 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 996x465 Vgap=26 pad=0,0,0,0
+T @0,0 996x356 "Authorization receipt\n\n"[SemiBold 21 lh150% text/primary] "Client\nAtlas Research Client\n\nAccount\nMaya Chen / Helix Lab\n\nRequested resource\nBIO-042 v1.0\n\nDecision\nDenied by Maya Chen\n\nAccess token\nNot issued"[Regular 14 lh150% text/primary]
+T @0,382 996x83 "Your evidence remains private\n\n"[SemiBold 21 lh150% text/primary] "Atlas cannot access your tasks, reports, evidence or datasets. A fresh request would require your explicit consent again."[Regular 14 lh150% text/primary]
+T @1044,0 300x373 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "REQUEST\nOAUTH-042\n\nGRANTED SCOPES\nNone\n\nACCOUNT ACCESS\nUnchanged\n\nCLIENT STATUS\nNot connected\n\nThe denial is recorded as an authorization audit event. It does not affect your Rivet membership.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,769 1344x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 125x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 93x20 "Return to Rivet"[SemiBold 13 lh150% text/on-accent]
+F Action @137,12 126x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 94x20 "Return to Atlas"[SemiBold 13 lh150% text/primary]

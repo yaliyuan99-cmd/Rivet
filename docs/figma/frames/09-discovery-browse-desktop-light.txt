@@ -1,0 +1,26 @@
+F 09 Discovery and profile / browse / Desktop / Light @73679,45568 1440x1046 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1046 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n"[Regular 12 lh150% #586d65] "● Tasks\n\n"[SemiBold 12 lh150% #187b66] " Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1046 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / TASKS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x974 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "09 DISCOVERY AND PROFILE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Real tasks. Open questions.\n"[SemiBold 38 lh115% #182723] "Browse evaluation tasks and inspect the evidence behind them.\n\n"[Regular 14 lh150% #586d65] "BIOLOGY / 3 AUTHORED DEMO TASKS"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x582 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x582 Vgap=26 pad=0,0,0,0
+F Search and refine @0,0 780x196 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Search and refine"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "SEARCH TASKS\n"[Mono Regular 10 lh150% #586d65] "antibiotic resistance"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "FILTERS\n"[Mono Regular 10 lh150% #586d65] "Biology · Frozen versions · Helix Lab ▾"[Regular 14 lh150% #182723]
+T @0,222 780x230 "Real questions, inspectable evidence\n\n"[SemiBold 21 lh150% text/primary] "BIO-042 v1.0 / Antibiotic resistance mechanism\nMaya Chen · Private · 3 models · Run / Resume / Revise\n\nBIO-041 v1.0 / Efflux versus permeability\nDr. Samira Patel · Demo shared · Read only\n\nBIO-043 v0.1 / Limits of inhibitor controls\nMaya Chen · Private draft · No runs yet"[Regular 14 lh150% text/primary]
+T @0,478 780x104 "Featured / BIO-042\n\n"[SemiBold 21 lh150% text/primary] "Evaluate a causal claim against three source fixtures. Compare mechanistic reasoning, source attribution, alternatives and calibrated conclusions with a 100-point rubric."[Regular 14 lh150% text/primary]
+T @828,0 300x445 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "ALL TASKS\n3 synthetic examples\n\nMY TASKS\n2 / Maya Chen\n\nWORKSPACE\nHelix Lab\n\nEVIDENCE ACCESS\nPermission checked\n\nOnly task owners can run, resume or revise a task. Members can create tasks and inspect authorized evidence.\n\n⌑ ACTION UNAVAILABLE\nReview BIO-042 · You own this task\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,808 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 123x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 91x20 "Open BIO-042"[SemiBold 13 lh150% text/on-accent]
+F Action @135,12 105x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 73x20 "Create task"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,890 135x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 103x20 "Review BIO-042"[SemiBold 13 lh150% text/disabled]

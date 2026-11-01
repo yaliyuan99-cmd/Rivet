@@ -1,0 +1,46 @@
+/* The demo client prints what the bearer API returned. */
+.atlas-call {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.atlas-call-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.atlas-call-path {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.atlas-call-status {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--accent);
+}
+
+.atlas-call-status[data-tone='warning'] {
+  color: var(--warning);
+}
+
+.atlas-call-status[data-tone='danger'] {
+  color: var(--danger);
+}
+
+.atlas-call-body {
+  font-size: 13px;
+  line-height: 19.5px;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}

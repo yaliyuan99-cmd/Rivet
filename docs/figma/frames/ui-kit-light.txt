@@ -1,0 +1,380 @@
+F Rivet UI kit / Light @91268,99667 1440x5149 fill=background/canvas Vgap=32 pad=48,48,48,48
+T @48,48 1344x16 "12 / INTERFACE SYSTEM / EDITABLE VARIANT FRAMES"[Mono Regular 11 lh145% signal/accent]
+T @48,96 1344x64 "Quiet structure. Clear signals."[Regular 44 lh145% text/primary]
+F Fields @48,192 1344x254 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 62x32 "Fields"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "4 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Fields / Light @24,80 1296x150 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 296x112 stroke=signal/accent:0 Vgap=7 pad=0,0,0,0
+T @0,0 296x17 "Task title"[SemiBold 12 lh145% text/primary]
+F Input @0,24 296x64 fill=surface/inset stroke=border/default:1 r=5 Hgap=12 pad=12,12,12,12
+T @12,12 272x40 "Assess an antibiotic resistance mechanism"[Regular 14 lh145% text/primary]
+T @0,95 296x17 "A clear, specific question."[Regular 12 lh145% text/secondary]
+C State=Focus @336,16 296x118 stroke=signal/accent:2 Vgap=7 pad=3,3,3,3
+T @3,3 290x17 "Task title"[SemiBold 12 lh145% text/primary]
+F Input @3,27 290x64 fill=surface/inset stroke=border/default:1 r=5 Hgap=12 pad=12,12,12,12
+T @12,12 266x40 "Assess an antibiotic resistance mechanism"[Regular 14 lh145% text/primary]
+T @3,98 290x17 "A clear, specific question."[Regular 12 lh145% text/secondary]
+C State=Error @656,16 296x92 stroke=signal/accent:0 Vgap=7 pad=0,0,0,0
+T @0,0 296x17 "Task title"[SemiBold 12 lh145% text/primary]
+F Input @0,24 296x44 fill=surface/inset stroke=status/danger:1 r=5 Hgap=12 pad=12,12,12,12
+T @0,75 296x17 "Enter a task title to continue."[Regular 12 lh145% status/danger]
+C State=Disabled @976,16 296x112 stroke=signal/accent:0 op=0.45 Vgap=7 pad=0,0,0,0
+T @0,0 296x17 "Task title"[SemiBold 12 lh145% text/primary]
+F Input @0,24 296x64 fill=surface/inset stroke=border/default:1 r=5 Hgap=12 pad=12,12,12,12
+T @12,12 272x40 "Assess an antibiotic resistance mechanism"[Regular 14 lh145% text/primary]
+T @0,95 296x17 "Frozen versions cannot be edited."[Regular 12 lh145% text/secondary]
+T @48,478 1344x20 "Rivet UI kit · light theme · Labeled families and direct State=… child frames, ready for native-component conversion. Static states only."[Regular 14 lh145% text/secondary]
+F Buttons @48,530 1344x186 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 81x32 "Buttons"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "6 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Buttons / Light @24,80 1296x82 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 164x44 stroke=signal/accent:0 r=8 Hgap=0 pad=0,0,0,0
+F Action @0,0 164x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=surface/default:1.5
+T @40,13 108x19 "Inspect evidence"[SemiBold 13 lh145% text/on-accent]
+C State=Secondary @204,16 164x44 stroke=signal/accent:0 r=8 Hgap=0 pad=0,0,0,0
+F Action @0,0 164x44 fill=surface/default stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=signal/accent:1.5
+T @40,13 108x19 "Inspect evidence"[SemiBold 13 lh145% text/primary]
+C State=Hover @392,16 164x44 stroke=signal/accent:0 r=8 Hgap=0 pad=0,0,0,0
+F Action @0,0 164x44 fill=surface/support-5 stroke=signal/accent:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=surface/default:1.5
+T @40,13 108x19 "Inspect evidence"[SemiBold 13 lh145% text/on-accent]
+C State=Focus @580,16 170x50 stroke=signal/accent:2 r=8 Hgap=0 pad=3,3,3,3
+F Action @3,3 164x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=surface/default:1.5
+T @40,13 108x19 "Inspect evidence"[SemiBold 13 lh145% text/on-accent]
+C State=Disabled @774,16 132x44 stroke=signal/accent:0 r=8 Hgap=0 pad=0,0,0,0
+F Disabled action @0,0 132x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=text/disabled:1.5
+T @40,13 76x19 "Review task"[SemiBold 13 lh145% text/disabled]
+C State=Danger @930,16 148x44 stroke=signal/accent:0 r=8 Hgap=0 pad=0,0,0,0
+F Action @0,0 148x44 fill=surface/support-3 stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=signal/accent:1.5
+T @40,13 92x19 "Delete dataset"[SemiBold 13 lh145% status/danger]
+F Selects @48,748 1344x312 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 77x32 "Selects"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Selects / Light @24,80 1296x208 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 296x68 stroke=signal/accent:0 Vgap=7 pad=0,0,0,0
+T @0,0 296x17 "Domain"[SemiBold 12 lh145% text/primary]
+F Input @0,24 296x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=12 pad=12,12,12,12
+T @12,12 244x20 "Biology"[Regular 14 lh145% text/primary]
+V Icon @268,12 16x16 stroke=signal/accent:1.5
+C State=Open @336,16 296x176 stroke=signal/accent:0 Vgap=7 pad=0,0,0,0
+T @0,0 296x17 "Domain"[SemiBold 12 lh145% text/primary]
+F Input @0,24 296x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=12 pad=12,12,12,12
+T @12,12 244x20 "Biology"[Regular 14 lh145% text/primary]
+V Icon @268,12 16x16 stroke=signal/accent:1.5
+F Options @0,75 296x101 fill=surface/default stroke=border/default:1 Vgap=10 pad=12,12,12,12
+T @12,12 272x19 "Biology ✓"[Regular 13 lh145% signal/accent]
+T @12,41 272x19 "Chemistry"[Regular 13 lh145% text/secondary]
+T @12,70 272x19 "Computer science"[Regular 13 lh145% text/secondary]
+C State=Disabled @656,16 296x68 stroke=signal/accent:0 op=0.45 Vgap=7 pad=0,0,0,0
+T @0,0 296x17 "Domain"[SemiBold 12 lh145% text/primary]
+F Input @0,24 296x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=12 pad=12,12,12,12
+T @12,12 244x20 "Biology"[Regular 14 lh145% text/primary]
+V Icon @268,12 16x16 stroke=signal/accent:1.5
+F Checkbox @48,1092 1344x175 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 105x32 "Checkbox"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Checkbox / Light @24,80 1296x71 r=5 Hgap=24 pad=16,16,16,16
+C State=Unchecked @16,16 296x19 Vgap=4 pad=0,0,0,0
+F Checkbox @0,0 296x19 Hgap=10 pad=0,0,0,0
+F Check indicator @0,0 18x18 fill=surface/inset stroke=border/default:1 r=3 Hgap=0 pad=0,0,0,0
+T @28,0 268x19 "I have no conflict of interest."[Regular 13 lh145% text/primary]
+C State=Checked @336,16 296x19 Vgap=4 pad=0,0,0,0
+F Checkbox @0,0 296x19 Hgap=10 pad=0,0,0,0
+ICON Check indicator 18x18 surface/default
+T @28,0 268x19 "I have no conflict of interest."[Regular 13 lh145% text/primary]
+C State=Disabled @656,16 296x39 op=0.45 Vgap=4 pad=0,0,0,0
+F Checkbox @0,0 296x19 Hgap=10 pad=0,0,0,0
+ICON Check indicator 18x18 surface/default
+T @28,0 268x19 "I have no conflict of interest."[Regular 13 lh145% text/primary]
+T @0,23 296x16 "Verification required before submission."[Regular 11 lh145% text/secondary]
+F Tabs and navigation @48,1299 1344x205 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 209x32 "Tabs and navigation"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Tabs and navigation / Light @24,80 1296x101 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 296x69 stroke=border/default:0/0/1/0 Hgap=20 pad=0,0,0,0
+F Tab @0,0 69x35 stroke=signal/accent:0/0/2/0 Hgap=0 pad=6,0,12,0
+T @0,6 69x17 "Comparison"[Regular 12 lh145% signal/accent]
+F Tab @89,0 52x35 stroke=signal/accent:0 Hgap=0 pad=6,0,12,0
+T @0,6 52x17 "Evidence"[Regular 12 lh145% text/secondary]
+F Tab @161,0 41x35 stroke=signal/accent:0 Hgap=0 pad=6,0,12,0
+T @0,6 41x17 "Review"[Regular 12 lh145% text/secondary]
+C State=Active @336,16 296x69 stroke=border/default:0/0/1/0 Hgap=20 pad=0,0,0,0
+F Tab @0,0 69x35 stroke=signal/accent:0 Hgap=0 pad=6,0,12,0
+T @0,6 69x17 "Comparison"[Regular 12 lh145% text/secondary]
+F Tab @89,0 52x35 stroke=signal/accent:0/0/2/0 Hgap=0 pad=6,0,12,0
+T @0,6 52x17 "Evidence"[Regular 12 lh145% signal/accent]
+F Tab @161,0 41x35 stroke=signal/accent:0 Hgap=0 pad=6,0,12,0
+T @0,6 41x17 "Review"[Regular 12 lh145% text/secondary]
+C State=Restricted @656,16 296x69 Vgap=8 pad=0,0,0,0
+F Disabled action @0,0 149x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=text/disabled:1.5
+T @40,13 93x19 "Administration"[SemiBold 13 lh145% text/disabled]
+T @0,52 296x17 "Admin role required"[Regular 12 lh145% text/secondary]
+F Badges @48,1536 1344x161 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 79x32 "Badges"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "4 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Badges / Light @24,80 1296x57 r=5 Hgap=24 pad=16,16,16,16
+C State=Neutral @16,16 109x25 fill=surface/inset r=5 Hgap=0 pad=4,8,4,8
+T @8,4 93x17 "SYNTHETIC DEMO"[Mono SemiBold 11 lh150% text/secondary]
+C State=Signal @149,16 102x25 fill=signal/subtle r=5 Hgap=0 pad=4,8,4,8
+T @8,4 86x17 "HASH VERIFIED"[Mono SemiBold 11 lh150% signal/accent]
+C State=Warning @275,16 109x25 fill=surface/support-1 r=5 Hgap=0 pad=4,8,4,8
+T @8,4 93x17 "PENDING REVIEW"[Mono SemiBold 11 lh150% status/warning]
+C State=Danger @408,16 63x25 fill=surface/support-3 r=5 Hgap=0 pad=4,8,4,8
+T @8,4 47x17 "BLOCKED"[Mono SemiBold 11 lh150% status/danger]
+F Alerts and toasts @48,1729 1344x225 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 177x32 "Alerts and toasts"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "4 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Alerts and toasts / Light @24,80 1296x121 r=5 Hgap=24 pad=16,16,16,16
+C State=Information @16,16 296x89 fill=surface/inset stroke=text/secondary:0/0/0/2 Hgap=12 pad=16,16,16,16
+V Icon @16,16 16x16 stroke=text/secondary:1.5
+F Message @44,16 236x57 Vgap=4 pad=0,0,0,0
+T @0,0 236x19 "Frozen version is read only"[SemiBold 13 lh145% text/secondary]
+T @0,23 236x34 "Evidence and version history are retained."[Regular 12 lh145% text/secondary]
+C State=Warning @336,16 296x89 fill=surface/support-1 stroke=status/warning:0/0/0/2 Hgap=12 pad=16,16,16,16
+V Icon @16,16 16x16 stroke=status/warning:1.5
+F Message @44,16 236x57 Vgap=4 pad=0,0,0,0
+T @0,0 236x19 "Possible source overlap"[SemiBold 13 lh145% status/warning]
+T @0,23 236x34 "Evidence and version history are retained."[Regular 12 lh145% text/secondary]
+C State=Success @656,16 296x89 fill=signal/subtle stroke=signal/accent:0/0/0/2 Hgap=12 pad=16,16,16,16
+V Icon @16,16 16x16 stroke=signal/accent:1.5
+F Message @44,16 236x57 Vgap=4 pad=0,0,0,0
+T @0,0 236x19 "Run complete"[SemiBold 13 lh145% signal/accent]
+T @0,23 236x34 "Evidence and version history are retained."[Regular 12 lh145% text/secondary]
+C State=Copied @976,16 296x89 fill=signal/subtle stroke=signal/accent:0/0/0/2 Hgap=12 pad=16,16,16,16
+V Icon @16,16 16x16 stroke=signal/accent:1.5
+F Message @44,16 236x40 Vgap=4 pad=0,0,0,0
+T @0,0 236x19 "Citation copied"[SemiBold 13 lh145% signal/accent]
+T @0,23 236x17 "Version URL and checksum included."[Regular 12 lh145% text/secondary]
+F Modal @48,1986 1344x358 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 64x32 "Modal"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "2 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Modal / Light @24,80 1296x254 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 390x222 fill=surface/default stroke=border/default:1 r=8 Vgap=16 pad=20,20,20,20
+T @20,20 350x29 "Freeze version 1.0?"[Regular 20 lh145% text/primary]
+T @20,65 350x17 "The prompt, rubric and model revisions become immutable."[Regular 12 lh145% text/secondary]
+F Action @20,98 125x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 93x19 "Freeze version"[SemiBold 13 lh145% text/on-accent]
+F Action @20,158 76x44 fill=surface/default stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 44x19 "Cancel"[SemiBold 13 lh145% text/primary]
+C State=Destructive @430,16 390x222 fill=surface/default stroke=border/default:1 r=8 Vgap=16 pad=20,20,20,20
+T @20,20 350x29 "Delete dataset?"[Regular 20 lh145% text/primary]
+T @20,65 350x17 "Library removal is permanent. Frozen audit snapshots remain."[Regular 12 lh145% text/secondary]
+F Action @20,98 124x44 fill=surface/support-3 stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 92x19 "Delete dataset"[SemiBold 13 lh145% status/danger]
+F Action @20,158 76x44 fill=surface/default stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 44x19 "Cancel"[SemiBold 13 lh145% text/primary]
+F Task cards @48,2376 1344x368 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 113x32 "Task cards"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Task cards / Light @24,80 1296x264 r=5 Hgap=24 pad=16,16,16,16
+C State=Draft @16,16 296x203 fill=surface/default stroke=border/default:1 Vgap=12 pad=18,18,18,18
+F Status @18,18 49x25 fill=surface/inset r=5 Hgap=0 pad=4,8,4,8
+T @8,4 33x17 "DRAFT"[Mono SemiBold 11 lh150% text/secondary]
+T @18,55 260x46 "Assess evidence for an antibiotic resistance mechanism"[Regular 16 lh145% text/primary]
+T @18,113 260x16 "BIO-042 v1.0 · Maya Chen"[Mono Regular 11 lh145% text/secondary]
+F Action @18,141 137x44 fill=surface/default stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 105x19 "Continue editing"[SemiBold 13 lh145% text/primary]
+C State=Frozen @336,16 296x203 fill=surface/default stroke=border/default:1 Vgap=12 pad=18,18,18,18
+F Status @18,18 56x25 fill=signal/subtle r=5 Hgap=0 pad=4,8,4,8
+T @8,4 40x17 "FROZEN"[Mono SemiBold 11 lh150% signal/accent]
+T @18,55 260x46 "Assess evidence for an antibiotic resistance mechanism"[Regular 16 lh145% text/primary]
+T @18,113 260x16 "BIO-042 v1.0 · Maya Chen"[Mono Regular 11 lh145% text/secondary]
+F Action @18,141 140x44 fill=surface/default stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 108x19 "Inspect evidence"[SemiBold 13 lh145% text/primary]
+C State=Restricted @656,16 296x232 fill=surface/default stroke=border/default:1 Vgap=12 pad=18,18,18,18
+F Status @18,18 82x25 fill=surface/inset r=5 Hgap=0 pad=4,8,4,8
+T @8,4 66x17 "RESTRICTED"[Mono SemiBold 11 lh150% text/secondary]
+T @18,55 260x46 "Assess evidence for an antibiotic resistance mechanism"[Regular 16 lh145% text/primary]
+T @18,113 260x16 "BIO-042 v1.0 · Maya Chen"[Mono Regular 11 lh145% text/secondary]
+F Disabled action @18,141 149x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=text/disabled:1.5
+T @40,13 93x19 "Run evaluation"[SemiBold 13 lh145% text/disabled]
+T @18,197 260x17 "Only the task owner can run this task."[Regular 12 lh145% text/secondary]
+F Model cards @48,2776 1344x261 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 129x32 "Model cards"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Model cards / Light @24,80 1296x157 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 296x108 fill=surface/inset stroke=border/default:1 Vgap=10 pad=18,18,18,18
+F Checkbox @18,18 260x19 Hgap=10 pad=0,0,0,0
+F Check indicator @0,0 18x18 fill=surface/inset stroke=border/default:1 r=3 Hgap=0 pad=0,0,0,0
+T @28,0 232x19 "Aster 3.2"[Regular 13 lh145% text/primary]
+T @18,47 260x16 "aster-3.2-20261001"[Mono Regular 11 lh145% text/secondary]
+T @18,73 260x17 "Illustrative model · 128k context · 8k output"[Regular 12 lh145% text/secondary]
+C State=Selected @336,16 296x108 fill=signal/subtle stroke=signal/accent:1 Vgap=10 pad=18,18,18,18
+F Checkbox @18,18 260x19 Hgap=10 pad=0,0,0,0
+ICON Check indicator 18x18 surface/default
+T @28,0 232x19 "Aster 3.2"[Regular 13 lh145% text/primary]
+T @18,47 260x16 "aster-3.2-20261001"[Mono Regular 11 lh145% text/secondary]
+T @18,73 260x17 "Illustrative model · 128k context · 8k output"[Regular 12 lh145% text/secondary]
+C State=Disabled @656,16 296x125 fill=surface/inset stroke=border/default:1 op=0.45 Vgap=10 pad=18,18,18,18
+F Checkbox @18,18 260x19 Hgap=10 pad=0,0,0,0
+F Check indicator @0,0 18x18 fill=surface/inset stroke=border/default:1 r=3 Hgap=0 pad=0,0,0,0
+T @28,0 232x19 "Aster 3.2"[Regular 13 lh145% text/primary]
+T @18,47 260x16 "aster-3.2-20261001"[Mono Regular 11 lh145% text/secondary]
+T @18,73 260x34 "Unavailable for new runs. Historical evidence remains."[Regular 12 lh145% text/secondary]
+F Table rows @48,3069 1344x238 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 113x32 "Table rows"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Table rows / Light @24,80 1296x134 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 296x86 fill=background/canvas stroke=border/default:0/0/1/0 Vgap=0 pad=0,0,0,0
+F Table header @0,0 296x36 fill=surface/inset Hgap=0 pad=12,0,12,0
+T @0,12 99x12 "TASK"[Mono Regular 9 text/secondary]
+T @99,12 99x12 "VERSION"[Mono Regular 9 text/secondary]
+T @197,12 99x12 "STATUS"[Mono Regular 9 text/secondary]
+F Table row @0,36 296x50 Hgap=0 pad=18,0,18,0
+T @0,18 99x14 "BIO-042"[Mono Regular 11 text/primary]
+T @99,18 99x14 "v1.0"[Mono Regular 11 text/primary]
+T @197,18 99x14 "Frozen"[Mono Regular 11 text/primary]
+C State=Hover @336,16 296x102 fill=surface/default stroke=border/default:0/0/1/0 Vgap=0 pad=8,8,8,8
+F Table header @8,8 280x36 fill=surface/inset Hgap=0 pad=12,0,12,0
+T @0,12 93x12 "TASK"[Mono Regular 9 text/secondary]
+T @93,12 93x12 "VERSION"[Mono Regular 9 text/secondary]
+T @187,12 93x12 "STATUS"[Mono Regular 9 text/secondary]
+F Table row @8,44 280x50 Hgap=0 pad=18,0,18,0
+T @0,18 93x14 "BIO-042"[Mono Regular 11 text/primary]
+T @93,18 93x14 "v1.0"[Mono Regular 11 text/primary]
+T @187,18 93x14 "Frozen"[Mono Regular 11 text/primary]
+C State=Selected @656,16 296x102 fill=signal/subtle stroke=signal/accent:0/0/1/2 Vgap=0 pad=8,8,8,8
+F Table header @8,8 280x36 fill=surface/inset Hgap=0 pad=12,0,12,0
+T @0,12 93x12 "TASK"[Mono Regular 9 text/secondary]
+T @93,12 93x12 "VERSION"[Mono Regular 9 text/secondary]
+T @187,12 93x12 "STATUS"[Mono Regular 9 text/secondary]
+F Table row @8,44 280x50 Hgap=0 pad=18,0,18,0
+T @0,18 93x14 "BIO-042"[Mono Regular 11 text/primary]
+T @93,18 93x14 "v1.0"[Mono Regular 11 text/primary]
+T @187,18 93x14 "Frozen"[Mono Regular 11 text/primary]
+F Scores @48,3339 1344x260 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 72x32 "Scores"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "2 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Scores / Light @24,80 1296x156 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 296x124 Vgap=8 pad=0,0,0,0
+T @0,0 296x67 "86 / 100"[Mono Regular 46 lh145% signal/accent]
+F Status @0,75 82x25 fill=surface/inset r=5 Hgap=0 pad=4,8,4,8
+T @8,4 66x17 "DEMO SCORE"[Mono SemiBold 11 lh150% text/secondary]
+T @0,108 296x16 "n = 1 task · No population inference"[Regular 11 lh145% text/secondary]
+C State=Reviewed @336,16 296x124 Vgap=8 pad=0,0,0,0
+T @0,0 296x67 "86 / 100"[Mono Regular 46 lh145% signal/accent]
+F Status @0,75 102x25 fill=signal/subtle r=5 Hgap=0 pad=4,8,4,8
+T @8,4 86x17 "EXPERT UPHELD"[Mono SemiBold 11 lh150% signal/accent]
+T @0,108 296x16 "n = 1 task · No population inference"[Regular 11 lh145% text/secondary]
+F Confidence intervals @48,3631 1344x352 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 215x32 "Confidence intervals"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "2 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Confidence intervals / Light @24,80 1296x248 r=5 Hgap=24 pad=16,16,16,16
+C State=Default @16,16 390x116 Vgap=12 pad=0,0,0,0
+F Confidence interval @0,0 390x88 Vgap=8 pad=0,0,0,0
+F Estimate @0,0 143x33 Hgap=10 pad=0,0,0,0
+T @0,0 53x33 "87.4"[Mono Regular 22 lh150% signal/accent]
+T @63,8 80x17 "[83.1, 91.2]"[Mono Regular 11 lh150% text/secondary]
+V Interval plot @0,41 240x24 stroke=signal/accent:2
+T @0,73 390x15 "60 80 100"[Mono Regular 10 lh145% text/secondary]
+T @0,100 390x16 "95% bootstrap CI · n=24 synthetic task fixtures"[Regular 11 lh145% text/secondary]
+C State=Overlapping @430,16 390x216 Vgap=12 pad=0,0,0,0
+F Confidence interval @0,0 390x88 Vgap=8 pad=0,0,0,0
+F Estimate @0,0 143x33 Hgap=10 pad=0,0,0,0
+T @0,0 53x33 "87.4"[Mono Regular 22 lh150% signal/accent]
+T @63,8 80x17 "[83.1, 91.2]"[Mono Regular 11 lh150% text/secondary]
+V Interval plot @0,41 240x24 stroke=signal/accent:2
+T @0,73 390x15 "60 80 100"[Mono Regular 10 lh145% text/secondary]
+F Confidence interval @0,100 390x88 Vgap=8 pad=0,0,0,0
+F Estimate @0,0 143x33 Hgap=10 pad=0,0,0,0
+T @0,0 53x33 "83.1"[Mono Regular 22 lh150% signal/accent]
+T @63,8 80x17 "[78.5, 87.6]"[Mono Regular 11 lh150% text/secondary]
+V Interval plot @0,41 240x24 stroke=signal/accent:2
+T @0,73 390x15 "60 80 100"[Mono Regular 10 lh145% text/secondary]
+T @0,200 390x16 "95% bootstrap CI · n=24 synthetic task fixtures"[Regular 11 lh145% text/secondary]
+F Evidence @48,4015 1344x261 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 96x32 "Evidence"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "2 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Evidence / Light @24,80 1296x157 r=5 Hgap=24 pad=16,16,16,16
+C State=Verified @16,16 296x97 fill=surface/inset stroke=border/default:1 r=5 Vgap=8 pad=16,16,16,16
+F Integrity status @16,16 264x17 Hgap=8 pad=0,0,0,0
+V Icon @0,0 16x16 stroke=signal/accent:1.5
+T @24,0 240x17 "Tamper-evident · hash verified"[SemiBold 12 lh145% text/primary]
+T @16,41 264x16 "EV-1042-A · RUN-1042 · BIO-042 v1.0"[Mono Regular 11 lh145% text/secondary]
+T @16,65 264x16 "SHA-256 8a2f0c9e…d4f2c91a"[Mono Regular 11 lh145% text/secondary]
+C State=Mismatch @336,16 296x125 fill=surface/support-3 stroke=status/danger:0/0/0/2 Hgap=12 pad=16,16,16,16
+V Icon @16,16 16x16 stroke=status/danger:1.5
+F Message @44,16 236x93 Vgap=4 pad=0,0,0,0
+T @0,0 236x38 "Hash mismatch · Evidence quarantined"[SemiBold 13 lh145% status/danger]
+T @0,42 236x51 "The bytes differ from the frozen manifest. Do not use this artifact for scoring."[Regular 12 lh145% text/secondary]
+F Progress @48,4308 1344x263 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 92x32 "Progress"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Progress / Light @24,80 1296x159 r=5 Hgap=24 pad=16,16,16,16
+C State=Running @16,16 296x71 Vgap=12 pad=0,0,0,0
+T @0,0 296x17 "6 / 9 stages committed"[Mono Regular 12 lh145% text/primary]
+F Track @0,29 296x5 fill=border/default Hgap=0 pad=0,0,0,0
+R Completed @0,0 198x5 fill=signal/accent
+F Status @0,46 63x25 fill=signal/subtle r=5 Hgap=0 pad=4,8,4,8
+T @8,4 47x17 "RUNNING"[Mono SemiBold 11 lh150% signal/accent]
+C State=Interrupted @336,16 296x127 Vgap=12 pad=0,0,0,0
+T @0,0 296x17 "6 / 9 stages committed"[Mono Regular 12 lh145% text/primary]
+F Track @0,29 296x5 fill=border/default Hgap=0 pad=0,0,0,0
+R Completed @0,0 198x5 fill=signal/accent
+F Status @0,46 89x25 fill=surface/support-1 r=5 Hgap=0 pad=4,8,4,8
+T @8,4 73x17 "INTERRUPTED"[Mono SemiBold 11 lh150% status/warning]
+F Action @0,83 168x44 fill=surface/default stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 136x19 "Resume from CP-006"[SemiBold 13 lh145% text/primary]
+C State=Complete @656,16 296x71 Vgap=12 pad=0,0,0,0
+T @0,0 296x17 "9 / 9 stages committed"[Mono Regular 12 lh145% text/primary]
+F Track @0,29 296x5 fill=border/default Hgap=0 pad=0,0,0,0
+R Completed @0,0 296x5 fill=signal/accent
+F Status @0,46 69x25 fill=signal/subtle r=5 Hgap=0 pad=4,8,4,8
+T @8,4 53x17 "COMPLETE"[Mono SemiBold 11 lh150% signal/accent]
+F Permission control @48,4603 1344x205 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 193x32 "Permission control"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Permission control / Light @24,80 1296x101 r=5 Hgap=24 pad=16,16,16,16
+C State=Allowed @16,16 296x69 Vgap=8 pad=0,0,0,0
+F Action @0,0 125x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=8 pad=11,16,11,16
+T @16,13 93x19 "Run evaluation"[SemiBold 13 lh145% text/on-accent]
+T @0,52 296x17 "Allowed · You own BIO-042."[Regular 12 lh145% text/secondary]
+C State=Denied @336,16 296x69 Vgap=8 pad=0,0,0,0
+F Disabled action @0,0 132x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=text/disabled:1.5
+T @40,13 76x19 "Review task"[SemiBold 13 lh145% text/disabled]
+T @0,52 296x17 "Verified Biology credential required"[Regular 12 lh145% text/secondary]
+C State=Conflict @656,16 296x69 Vgap=8 pad=0,0,0,0
+F Disabled action @0,0 132x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=8 pad=11,16,11,16
+V Icon @16,14 16x16 stroke=text/disabled:1.5
+T @40,13 76x19 "Review task"[SemiBold 13 lh145% text/disabled]
+T @0,52 296x17 "You own this task"[Regular 12 lh145% text/secondary]
+F Chat @48,4840 1344x261 stroke=border/default:1 Hgap=24 pad=24,24,24,24
+F Family label @24,24 1296x32 Hgap=0 pad=0,0,0,0
+T @0,0 50x32 "Chat"[Regular 22 lh145% text/primary]
+T @1190,0 106x17 "3 STATES / LIGHT"[Mono Regular 11 lh150% text/secondary]
+CS Rivet / Chat / Light @24,80 1296x157 r=5 Hgap=24 pad=16,16,16,16
+C State=Prompt @16,16 296x78 fill=surface/inset stroke=border/default:1 Vgap=12 pad=16,16,16,16
+T @16,16 264x15 "MAYA CHEN"[Mono Regular 10 lh145% signal/accent]
+T @16,43 264x19 "Does E03 prove an efflux mechanism?"[Regular 13 lh145% text/primary]
+C State=Cited answer @336,16 296x125 fill=surface/inset stroke=border/default:1 Vgap=12 pad=16,16,16,16
+T @16,16 264x15 "AUDIT ADVISOR"[Mono Regular 10 lh145% signal/accent]
+T @16,43 264x38 "No. E03 supports association, not pump-specific causality. [1]"[Regular 13 lh145% text/primary]
+T @16,93 264x16 "[1] DS-BIO-07 v1.0 / E03 →"[Mono Regular 11 lh145% signal/accent]
+C State=Insufficient evidence @656,16 296x116 fill=surface/inset stroke=border/default:1 Vgap=12 pad=16,16,16,16
+T @16,16 264x15 "AUDIT ADVISOR"[Mono Regular 10 lh145% signal/accent]
+T @16,43 264x57 "The authorized evidence does not include causal controls. I cannot establish that claim."[Regular 13 lh145% text/primary]

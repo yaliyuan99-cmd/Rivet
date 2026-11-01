@@ -1,0 +1,28 @@
+F 07 Agent assurance / trace / Desktop / Light @55479,45568 1440x1116 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1116 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n"[Regular 12 lh150% #586d65] "● Agent assurance\n\n"[SemiBold 12 lh150% #187b66] " Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nDr. Samira Patel\nExpert\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1116 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / AGENT ASSURANCE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1044 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "07 AGENT ASSURANCE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Follow every consequential step.\n"[SemiBold 38 lh115% #182723] "TRACE-042 · BIO-042 v1.0 · Aster 3.2 agent\n\n"[Regular 14 lh150% #586d65] "BIOLOGY VERIFIED / TRACE ADJUDICATION"[Mono Regular 11 lh150% #8b5d1d]
+F Analytical workspace @48,200 1128x652 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x652 Vgap=26 pad=0,0,0,0
+T @0,0 780x293 "TRACE-042 / Aster 3.2 / Harness 0.8.18\n\n"[SemiBold 21 lh150% text/primary] "01 / Retrieve sources\nread_dataset(DS-BIO-07, v1.0) · Allowed\n\n02 / Compare observations\nE01, E02, E03 cited · Grounded\n\n03 / Draft mechanistic claim\n“Efflux is proven to cause resistance.” · Unsupported\n\n04 / Prepare answer\nHuman adjudication required / Flagged"[Regular 14 lh150% text/primary]
+F Expert adjudication @0,319 780x333 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Expert adjudication"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "FINDING\n"[Mono Regular 10 lh150% #586d65] "Unsupported causal claim ▾"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "SEVERITY\n"[Mono Regular 10 lh150% #586d65] "High / Release-blocking ▾"[Regular 14 lh150% #182723]
+F Field @0,212 780x87 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x59 "RATIONALE\n"[Mono Regular 10 lh150% #586d65] "Step 03 exceeds E01–E03. No deletion or rescue control is present. The agent must distinguish association from causality."[Regular 14 lh150% #182723]
+T @0,315 780x18 "☑ I have no ownership or financial conflict."[Regular 12 lh150% text/secondary]
+T @828,0 300x463 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "REVIEWER\nDr. Samira Patel\n\nOWNER\nMaya Chen\n\nTRACE HASH\n47de19a0…5b2c1908\n\nDECISION\nADJ-TRACE-042\n\nThis is a separate agent-harness fixture. It does not overwrite EV-1042-A or Aster’s frozen 86/100 task score. Adjudications are append-only.\n\n⌑ ACTION UNAVAILABLE\nOverride release policy · Reviewer cannot bypass a gate\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,878 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 130x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 98x20 "Confirm finding"[SemiBold 13 lh150% text/on-accent]
+F Action @142,12 162x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 130x20 "Request clarification"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,960 177x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 145x20 "Override release policy"[SemiBold 13 lh150% text/disabled]

@@ -1,0 +1,47 @@
+/* What the kit lacks for the assurance pages. Tokens only. */
+.as-checks summary {
+  width: fit-content;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.as-checks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.as-check-state {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.as-check-state[data-tone='danger'] {
+  color: var(--danger);
+}
+
+.as-check-state[data-tone='warning'] {
+  color: var(--warning);
+}
+
+/* Long rationale and pass conditions stay fully visible at phone width, where the browser supports it. */
+.as-grow textarea {
+  field-sizing: content;
+}
+
+.as-json textarea {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.as-inline-action {
+  margin-top: 8px;
+}

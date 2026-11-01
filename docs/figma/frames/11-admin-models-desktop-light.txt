@@ -1,0 +1,30 @@
+F 11 Administration / models / Desktop / Light @83879,45568 1440x1122 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1122 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x538 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n"[Regular 12 lh150% #586d65] "● Administration\n\n"[SemiBold 12 lh150% #187b66] "\nAlex Rivera\nAdmin\n\nAdmin session / Audited"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1122 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / ADMINISTRATION / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1050 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "11 ADMINISTRATION / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Model metadata, kept explicit.\n"[SemiBold 38 lh115% #182723] "Administration · Illustrative models used in this demo\n\n"[Regular 14 lh150% #586d65] "ADMIN / ILLUSTRATIVE MODEL REGISTRY"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "Aster, Meridian and Lumen are fictional. Metadata is demo content, not provider claims."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x650 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x650 Vgap=26 pad=0,0,0,0
+T @0,0 780x230 "Pinned model revisions\n\n"[SemiBold 21 lh150% text/primary] "Aster 3.2 / Enabled\naster-3.2-20261001 · 128k context / 8k output\n\nMeridian 2.1 / Enabled\nmeridian-2.1-20260918 · 128k / 8k\n\nLumen 4 Mini / Enabled\nlumen-4-mini-20261004 · 64k / 8k"[Regular 14 lh150% text/primary]
+F Edit Aster metadata @0,256 780x394 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Edit Aster metadata"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "DISPLAY NAME\n"[Mono Regular 10 lh150% #586d65] "Aster 3.2"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "ADAPTER\n"[Mono Regular 10 lh150% #586d65] "Rivet Demo / Synthetic response adapter"[Regular 14 lh150% #182723]
+F Field @0,212 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "CUTOFF DISCLOSURE\n"[Mono Regular 10 lh150% #586d65] "Unknown / Not claimed"[Regular 14 lh150% #182723]
+F Field @0,294 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "CHANGE RATIONALE\n"[Mono Regular 10 lh150% #586d65] "Clarify provenance and cutoff disclosure. No change to the pinned revision."[Regular 14 lh150% #182723]
+T @0,376 780x18 "☑ Available for new evaluations."[Regular 12 lh150% text/secondary]
+T @828,0 300x391 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "EDITOR\nAlex Rivera / Admin\n\nFROZEN RUN METADATA\nPreserved\n\nCHANGE HISTORY\nAppend-only\n\nPINNED REVISION EDITS\nNot permitted\n\nDisabling a model prevents new selection. Historical outputs, pinned versions and citations remain visible.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,954 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 179x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 147x20 "Save metadata revision"[SemiBold 13 lh150% text/on-accent]
+F Action @191,12 76x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 44x20 "Cancel"[SemiBold 13 lh150% text/primary]

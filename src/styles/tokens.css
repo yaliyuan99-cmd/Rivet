@@ -1,0 +1,66 @@
+/* Exact values from the Figma token sheet ("Rivet token specification"). Dark-first. */
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --canvas: #101618;
+  --surface: #151e21;
+  --inset: #0c1214;
+  --text: #edf2f0;
+  --muted: #9aaca9;
+  --border: #2b393c;
+  --accent: #6bd6bf;
+  --accent-hover: #94e4d0;
+  --accent-surface: #18352f;
+  --on-accent: #0d2822;
+  --warning: #e8bd7e;
+  --warning-surface: #342b20;
+  --danger: #ee9a98;
+  --danger-surface: #382527;
+  --disabled: #60716f;
+  --accent-on-surface: #6bd6bf;
+  --danger-on-surface: #ee9a98;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --canvas: #f6f8f6;
+  --surface: #ffffff;
+  --inset: #edf1ee;
+  --text: #182723;
+  --muted: #586d65;
+  --border: #d5dfd9;
+  --accent: #187b66;
+  --accent-hover: #126550;
+  --accent-surface: #dff1ea;
+  --on-accent: #ffffff;
+  --warning: #8b5d1d;
+  --warning-surface: #f7ecd9;
+  --danger: #b44949;
+  --danger-surface: #f8e6e5;
+  --disabled: #8a9992;
+  /* The sheet's accent and danger reach only 4.4:1 on their own surfaces, under its 4.5:1 target. */
+  --accent-on-surface: #126550;
+  --danger-on-surface: #984342;
+}
+
+:root {
+  --font-sans: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --radius-control: 5px;
+  --radius-dialog: 8px;
+  --radius-check: 3px;
+
+  --nav-width: 216px;
+  --rail-width: 300px;
+  --inset-x: 48px;
+  --page-gap: 26px;
+  --section-text-gap: 31.5px;
+  --section-form-gap: 16px;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --inset-x: 20px;
+  }
+}

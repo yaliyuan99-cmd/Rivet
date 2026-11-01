@@ -1,0 +1,33 @@
+F 02 Evaluation / results / Desktop / Light @91259,55601 1440x1242 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1242 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n"[Regular 12 lh150% #586d65] "● Tasks\n\n"[SemiBold 12 lh150% #187b66] " Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1242 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / TASKS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1170 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "02 EVALUATION / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "What does the evidence support?\n"[SemiBold 38 lh115% #182723] "BIO-042 v1.0 · Assess evidence for an antibiotic resistance mechanism\n\n"[Regular 14 lh150% #586d65] "RUN COMPLETE / EXPERT REVIEW PENDING"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "Synthetic demo scores. n = 1 task; no population confidence interval is estimated."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x700 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x700 Vgap=26 pad=0,0,0,0
+F Same task. Different evidence quality. @0,0 780x251 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Same task. Different evidence quality."[SemiBold 21 lh150% text/primary]
+F Table row @0,48 780x57 stroke=border/default:0/0/1/0 Hgap=24 pad=18,0,18,0
+T @0,18 378x21 "Aster 3.2"[Regular 14 lh150% text/primary]
+T @402,18 378x18 "86 / 100 demo · EV-1042-A"[Mono Regular 12 lh150% text/secondary]
+F Table row @0,121 780x57 stroke=border/default:0/0/1/0 Hgap=24 pad=18,0,18,0
+T @0,18 378x21 "Meridian 2.1"[Regular 14 lh150% text/primary]
+T @402,18 378x18 "81 / 100 demo · EV-1042-M"[Mono Regular 12 lh150% text/secondary]
+F Table row @0,194 780x57 stroke=border/default:0/0/1/0 Hgap=24 pad=18,0,18,0
+T @0,18 378x21 "Lumen 4 Mini"[Regular 14 lh150% text/primary]
+T @402,18 378x18 "74 / 100 demo · EV-1042-L"[Mono Regular 12 lh150% text/secondary]
+T @0,277 780x293 "Rubric comparison / Aster · Meridian · Lumen\n\n"[SemiBold 21 lh150% text/primary] "Mechanistic reasoning / 30\n28 · 26 · 24\n\nEvidence attribution / 30\n25 · 23 · 20\n\nAlternatives / 25\n20 · 20 · 18\n\nCalibration / 15\n13 · 12 · 12"[Regular 14 lh150% text/primary]
+T @0,596 780x104 "The consequential difference\n\n"[SemiBold 21 lh150% text/primary] "Aster distinguishes a plausible efflux mechanism from a causal claim. Its attribution deduction reflects a missing inhibitor-specificity caveat."[Regular 14 lh150% text/primary]
+T @828,0 300x499 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "ASTER 3.2\n86 / 100 demo\n\nMERIDIAN 2.1\n81 / 100 demo\n\nLUMEN 4 MINI\n74 / 100 demo\n\nEVIDENCE\n3 sealed output snapshots\n\nTAMPER-EVIDENT / HASH VERIFIED\nEV-1042-A · RUN-1042 · BIO-042 v1.0\nSHA-256 8a2f0c9e…d4f2c91a\nCaptured 15 Oct 2026, 14:32 UTC\nRunner 2.4 · Inputs and outputs pinned.\nHash integrity does not establish truth.\n\n⌑ ACTION UNAVAILABLE\nReview this task · You own this task\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,1004 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 177x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 145x20 "Inspect Aster evidence"[SemiBold 13 lh150% text/on-accent]
+F Action @189,12 174x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 142x20 "Request expert review"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,1086 135x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 103x20 "Review this task"[SemiBold 13 lh150% text/disabled]

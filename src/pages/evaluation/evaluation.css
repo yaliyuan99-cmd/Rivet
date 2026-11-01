@@ -1,0 +1,167 @@
+/* Evaluation pages. Only what the kit does not cover, using its tokens. */
+
+/* Comparison rows sit 16px apart in the frames. */
+.eval-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Browse: three real selects inside the frame's single FILTERS field. */
+.eval-filters {
+  display: block;
+}
+
+.eval-filters:focus-within {
+  outline: none;
+}
+
+.eval-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+}
+
+.eval-filter {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.eval-filter select.field-control {
+  width: auto;
+  max-width: 100%;
+  min-height: 24px;
+  padding-right: 18px;
+}
+
+.eval-filter select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.eval-filter .field-chevron {
+  right: 0;
+  bottom: auto;
+  top: 50%;
+  margin-top: -7px;
+}
+
+.eval-filter-sep {
+  color: var(--muted);
+}
+
+/* Editor: a rubric criterion is a name, a points box, guidance and a remove link. */
+.eval-criterion {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* A finished criterion reads like the frame's rubric text until someone chooses to edit it. */
+.eval-criterion[data-editing='false'] {
+  gap: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.eval-criterion-actions {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--muted);
+}
+
+.eval-criterion-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 96px;
+  gap: 8px;
+}
+
+.eval-total {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.eval-total[data-tone='danger'] {
+  color: var(--danger);
+}
+
+.eval-add {
+  display: flex;
+}
+
+/* Rail: a model checkbox with its revision and any reason it is disabled. */
+.eval-model .check {
+  color: var(--muted);
+}
+
+.eval-model-name {
+  text-transform: uppercase;
+}
+
+.eval-model-detail {
+  overflow-wrap: anywhere;
+}
+
+/* Committed run log: one line per commit, the times in tabular numerals. */
+.eval-log {
+  display: flex;
+  flex-direction: column;
+}
+
+.eval-log li {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 8px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.eval-log time {
+  font-variant-numeric: tabular-nums;
+}
+
+.eval-quote {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.eval-scan-scope {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--muted);
+}
+
+.eval-reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+  .eval-filter-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .eval-filter {
+    display: flex;
+  }
+
+  .eval-filter select.field-control {
+    width: 100%;
+  }
+
+  .eval-filter-sep {
+    display: none;
+  }
+}

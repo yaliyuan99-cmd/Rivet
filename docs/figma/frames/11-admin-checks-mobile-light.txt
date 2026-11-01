@@ -1,0 +1,21 @@
+F 11 Administration / checks / Mobile / Light @93409,97563 390x1974 fill=background/canvas Vgap=0 pad=0,0,0,0
+F Application @0,0 390x1974 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 390x94 stroke=border/default:0/0/1/0 Hgap=12 pad=16,20,16,20
+T @20,16 318x62 "rivet\n"[Bold 25 lh150% ls-1 #187b66] "HELIX LAB / ADMINISTRATION\nSYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+V Menu @350,37 20x20 stroke=signal/accent:1
+T @0,94 390x36 " HELIX LAB · Private workspace\n Alex Rivera / Admin"[Regular 12 lh150% text/secondary]
+F Page content @0,130 390x1844 Vgap=26 pad=40,20,40,20
+T @20,40 350x179 "11 ADMINISTRATION / MOBILE\n\n"[Mono Regular 10 lh150% #187b66] "Trust is an operational practice.\n"[SemiBold 30 lh115% #182723] "Administration · System checks · 15 Oct 2026, 14:42 UTC\n\n"[Regular 14 lh150% #586d65] "ADMIN / SYSTEM CHECKS / 14:42 UTC"[Mono Regular 11 lh150% #8b5d1d]
+F Alert @20,245 350x72 fill=surface/support-1 Vgap=0 pad=16,16,16,16
+T @16,16 318x40 "Core integrity passed. One operational warning needs attention."[Regular 13 lh150% status/warning]
+F Analytical workspace @20,343 350x1083 Vgap=32 pad=0,0,0,0
+F Evidence workbench @0,0 350x696 Vgap=26 pad=0,0,0,0
+T @0,0 350x419 "System check receipts\n\n"[SemiBold 21 lh150% text/primary] "CHECK-291 / Artifact hashes\nPassed · 72 of 72 verified\n\nCHECK-292 / Immutability\nPassed · No frozen-version mutation\n\nCHECK-293 / Private access\nPassed · 18 of 18 boundary cases\n\nCHECK-294 / OAuth state & PKCE\nPassed · 8 of 8 cases\n\nCHECK-295 / Provider timeouts\nWarning · 4.2% demo / Threshold 3%\n\nCHECK-296 / Domain enforcement\nPassed · 12 of 12 cases"[Regular 14 lh150% text/primary]
+T @0,445 350x251 "Operational events\n\n"[SemiBold 21 lh150% text/primary] "RUN-1042 / 14:34 UTC\nSafe checkpoint after provider timeout · Owner can resume\n\nDS-BIO-07 / 14:32 UTC\nSource manifest hash matched\n\nAPP-028 / 13:40 UTC\nBiology credential verified / Dr. Samira Patel"[Regular 14 lh150% text/primary]
+T @0,728 350x355 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "INTEGRITY FAILURES\nBlock runs\n\nPERMISSION FAILURES\nDeny access\n\nTIMEOUT WARNINGS\nSafe checkpoint and retry\n\nOPERATOR\nAlex Rivera / Admin\n\nAll health metrics and check receipts are synthetic fixtures. They do not describe a live production service.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @20,1452 350x112 Vgap=12 pad=12,0,0,0
+F Action @0,12 350x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 318x20 CENTER "Run system checks"[SemiBold 13 lh150% text/on-accent]
+F Action @0,68 350x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 318x20 CENTER "Export check log"[SemiBold 13 lh150% text/primary]
+T @20,1590 350x214 "HELIX LAB / WORKSPACE NAVIGATION\n\n"[Mono Regular 10 lh180% #187b66] "Home Tasks Datasets Leaderboards Reports Agent assurance Review queue Audit Advisor Workspace Profile Administration\n\nAlex Rivera\nAdmin\n\nAdmin session / Audited"[Regular 12 lh180% #586d65]

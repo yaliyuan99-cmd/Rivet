@@ -1,0 +1,70 @@
+/* What the kit lacks for these pages: a score-and-note pair, a disclosure and queue-row alignment. */
+
+/* One rubric criterion: a narrow score field beside its note. */
+.criterion {
+  display: grid;
+  grid-template-columns: minmax(0, 230px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.criterion-model {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.criterion-model .mono {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* A disclosure for sealed text, as quiet as a prose link. */
+.disclosure > summary {
+  color: var(--accent);
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.disclosure > summary:hover {
+  color: var(--accent-hover);
+}
+
+.disclosure > :not(summary) {
+  margin-top: 12px;
+}
+
+/* Secondary lines under a section. */
+.fine-print {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.modal-pairs {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 19px;
+}
+
+/* A queue row's third column holds a button or a badge rather than a plot. */
+.queue-rows .row > :last-child:not(.row-value) {
+  justify-self: end;
+}
+
+@media (max-width: 767px) {
+  .criterion {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .queue-rows .row > :last-child:not(.row-value) {
+    justify-self: start;
+  }
+}

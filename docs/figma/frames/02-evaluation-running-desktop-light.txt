@@ -1,0 +1,20 @@
+F 02 Evaluation / running / Desktop / Light @91259,51156 1440x1199 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1199 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n"[Regular 12 lh150% #586d65] "● Tasks\n\n"[SemiBold 12 lh150% #187b66] " Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1199 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / TASKS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1127 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "02 EVALUATION / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Evaluation in progress\n"[SemiBold 38 lh115% #182723] "BIO-042 v1.0 · RUN-1042 · Three models, one frozen task.\n\n"[Regular 14 lh150% #586d65] "RUN ACTIVE / RUN-1042"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "67% complete. Evidence is captured at every checkpoint; you can leave this page."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x727 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x423 Vgap=26 pad=0,0,0,0
+T @0,0 780x230 "Model execution\n\n"[SemiBold 21 lh150% text/primary] "Aster 3.2\nOutput captured · Scored · EV-1042-A sealed\n\nMeridian 2.1\nOutput captured · Scoring in progress\n\nLumen 4 Mini\nQueued · Waiting for worker"[Regular 14 lh150% text/primary]
+T @0,256 780x167 "Committed run log\n\n"[SemiBold 21 lh150% text/primary] "14:32:08 Aster output captured\n14:32:11 EV-1042-A hash verified\n14:33:46 Meridian output captured\n14:34:02 CP-006 committed\n14:34:03 Rubric scoring started"[Regular 14 lh150% text/primary]
+T @828,0 300x727 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "6 / 9\n\n"[Mono Regular 58 lh150% #187b66] "PROGRESS\n6 of 9 stages committed\n\nELAPSED\n02:18\n\nTASK\nBIO-042 v1.0 / Frozen\n\nCHECKPOINT\nCP-006\n\nOWNER\nMaya Chen\n\nResume reuses this immutable contract. Completed outputs are never silently replaced.\n\nTAMPER-EVIDENT / HASH VERIFIED\nEV-1042-A · RUN-1042 · BIO-042 v1.0\nSHA-256 8a2f0c9e…d4f2c91a\nCaptured 15 Oct 2026, 14:32 UTC\nRunner 2.4 · Inputs and outputs pinned.\nHash integrity does not establish truth.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,1031 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 149x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 117x20 "View live evidence"[SemiBold 13 lh150% text/on-accent]
+F Action @161,12 169x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 137x20 "Stop after checkpoint"[SemiBold 13 lh150% text/primary]

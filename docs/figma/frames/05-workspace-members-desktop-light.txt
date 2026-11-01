@@ -1,0 +1,26 @@
+F 05 Workspace / members / Desktop / Light @40479,45568 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n"[Regular 12 lh150% #586d65] "● Workspace\n\n"[SemiBold 12 lh150% #187b66] " Profile\n\n Administration\n\n\nMaya Chen\nWorkspace owner\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x983 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / WORKSPACE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x911 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "05 WORKSPACE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "The people behind the evidence.\n"[SemiBold 38 lh115% #182723] "Helix Lab · Workspace settings · Maya Chen, owner\n\n"[Regular 14 lh150% #586d65] "HELIX LAB / WORKSPACE OWNER"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x519 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x519 Vgap=26 pad=0,0,0,0
+F Add a member by email @0,0 780x196 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Add a member by email"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "EMAIL ADDRESS\n"[Mono Regular 10 lh150% #586d65] "samira@northbridge.example"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "WORKSPACE ROLE\n"[Mono Regular 10 lh150% #586d65] "Member ▾"[Regular 14 lh150% #182723]
+T @0,222 780x167 "People in Helix Lab\n\n"[SemiBold 21 lh150% text/primary] "Maya Chen\nOwner · Active · maya@helixlab.example\n\nDr. Samira Patel\nMember · Invitation not yet sent"[Regular 14 lh150% text/primary]
+T @0,415 780x104 "Invitation scope\n\n"[SemiBold 21 lh150% text/primary] "Dr. Patel will receive access to Helix Lab private tasks and datasets. Her verified Biology credential is independent of workspace membership."[Regular 14 lh150% text/primary]
+T @828,0 300x499 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "MANAGE MEMBERS\nWorkspace owner only\n\nCREATE PRIVATE TASKS\nMembers\n\nRUN / RESUME / REVISE\nTask owner only\n\nEXPERT REVIEW\nVerified domain, never own task\n\nCREDENTIAL VERIFICATION\nAdmin only\n\nInvitations are auditable and email-specific. Removing membership revokes workspace access on subsequent requests.\n\n⌑ ACTION UNAVAILABLE\nGrant Biology credential · Admin role required\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,745 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 126x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 94x20 "Send invitation"[SemiBold 13 lh150% text/on-accent]
+F Action @138,12 153x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 121x20 "View access policy"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,827 184x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 152x20 "Grant Biology credential"[SemiBold 13 lh150% text/disabled]

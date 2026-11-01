@@ -1,0 +1,34 @@
+F 02 Evaluation / results / Mobile / Light @93409,55601 390x2359 fill=background/canvas Vgap=0 pad=0,0,0,0
+F Application @0,0 390x2359 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 390x94 stroke=border/default:0/0/1/0 Hgap=12 pad=16,20,16,20
+T @20,16 318x62 "rivet\n"[Bold 25 lh150% ls-1 #187b66] "HELIX LAB / TASKS\nSYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+V Menu @350,37 20x20 stroke=signal/accent:1
+T @0,94 390x36 " HELIX LAB · Private workspace\n Maya Chen / Member"[Regular 12 lh150% text/secondary]
+F Page content @0,130 390x2229 Vgap=26 pad=40,20,40,20
+T @20,40 350x179 "02 EVALUATION / MOBILE\n\n"[Mono Regular 10 lh150% #187b66] "What does the evidence support?\n"[SemiBold 30 lh115% #182723] "BIO-042 v1.0 · Assess evidence for an antibiotic resistance mechanism\n\n"[Regular 14 lh150% #586d65] "RUN COMPLETE / EXPERT REVIEW PENDING"[Mono Regular 11 lh150% #187b66]
+F Alert @20,245 350x72 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 318x40 "Synthetic demo scores. n = 1 task; no population confidence interval is estimated."[Regular 13 lh150% signal/accent]
+F Analytical workspace @20,343 350x1376 Vgap=32 pad=0,0,0,0
+F Evidence workbench @0,0 350x863 Vgap=26 pad=0,0,0,0
+F Same task. Different evidence quality. @0,0 350x361 Vgap=16 pad=0,0,0,0
+T @0,0 350x64 "Same task. Different evidence quality."[SemiBold 21 lh150% text/primary]
+F Table row @0,80 350x83 stroke=border/default:0/0/1/0 Vgap=8 pad=18,0,18,0
+T @0,18 350x21 "Aster 3.2"[Regular 14 lh150% text/primary]
+T @0,47 350x18 "86 / 100 demo · EV-1042-A"[Mono Regular 12 lh150% text/secondary]
+F Table row @0,179 350x83 stroke=border/default:0/0/1/0 Vgap=8 pad=18,0,18,0
+T @0,18 350x21 "Meridian 2.1"[Regular 14 lh150% text/primary]
+T @0,47 350x18 "81 / 100 demo · EV-1042-M"[Mono Regular 12 lh150% text/secondary]
+F Table row @0,278 350x83 stroke=border/default:0/0/1/0 Vgap=8 pad=18,0,18,0
+T @0,18 350x21 "Lumen 4 Mini"[Regular 14 lh150% text/primary]
+T @0,47 350x18 "74 / 100 demo · EV-1042-L"[Mono Regular 12 lh150% text/secondary]
+T @0,387 350x325 "Rubric comparison / Aster · Meridian · Lumen\n\n"[SemiBold 21 lh150% text/primary] "Mechanistic reasoning / 30\n28 · 26 · 24\n\nEvidence attribution / 30\n25 · 23 · 20\n\nAlternatives / 25\n20 · 20 · 18\n\nCalibration / 15\n13 · 12 · 12"[Regular 14 lh150% text/primary]
+T @0,738 350x125 "The consequential difference\n\n"[SemiBold 21 lh150% text/primary] "Aster distinguishes a plausible efflux mechanism from a causal claim. Its attribution deduction reflects a missing inhibitor-specificity caveat."[Regular 14 lh150% text/primary]
+T @0,895 350x481 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "ASTER 3.2\n86 / 100 demo\n\nMERIDIAN 2.1\n81 / 100 demo\n\nLUMEN 4 MINI\n74 / 100 demo\n\nEVIDENCE\n3 sealed output snapshots\n\nTAMPER-EVIDENT / HASH VERIFIED\nEV-1042-A · RUN-1042 · BIO-042 v1.0\nSHA-256 8a2f0c9e…d4f2c91a\nCaptured 15 Oct 2026, 14:32 UTC\nRunner 2.4 · Inputs and outputs pinned.\nHash integrity does not establish truth.\n\n⌑ ACTION UNAVAILABLE\nReview this task · You own this task\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @20,1745 350x112 Vgap=12 pad=12,0,0,0
+F Action @0,12 350x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 318x20 CENTER "Inspect Aster evidence"[SemiBold 13 lh150% text/on-accent]
+F Action @0,68 350x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 318x20 CENTER "Request expert review"[SemiBold 13 lh150% text/primary]
+F Disabled action @20,1883 350x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 318x20 CENTER "Review this task"[SemiBold 13 lh150% text/disabled]
+T @20,1953 350x236 "HELIX LAB / WORKSPACE NAVIGATION\n\n"[Mono Regular 10 lh180% #187b66] "Home Tasks Datasets Leaderboards Reports Agent assurance Review queue Audit Advisor Workspace Profile Administration\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh180% #586d65]

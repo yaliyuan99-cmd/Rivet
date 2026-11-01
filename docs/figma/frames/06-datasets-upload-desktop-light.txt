@@ -1,0 +1,30 @@
+F 06 Datasets / upload / Desktop / Light @91259,77655 1440x1197 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1197 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n"[Regular 12 lh150% #586d65] "● Datasets\n\n"[SemiBold 12 lh150% #187b66] " Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1197 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / DATASETS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1125 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "06 DATASETS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Bring your source material.\n"[SemiBold 38 lh115% #182723] "Helix Lab · Upload a versioned, traceable dataset.\n\n"[Regular 14 lh150% #586d65] "UPLOAD COMPLETE / VALIDATION PASSED"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "resistance-evidence-demo.csv · 48 KB · 3 synthetic source records · UTF-8"[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x725 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x725 Vgap=26 pad=0,0,0,0
+F Versioned dataset @0,0 780x360 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Versioned dataset"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "DATASET NAME\n"[Mono Regular 10 lh150% #586d65] "Resistance evidence pack"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "VERSION\n"[Mono Regular 10 lh150% #586d65] "1.0"[Regular 14 lh150% #182723]
+F Field @0,212 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "SOURCE FILE\n"[Mono Regular 10 lh150% #586d65] "resistance-evidence-demo.csv · Choose another"[Regular 14 lh150% #182723]
+F Field @0,294 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "PROVENANCE STATEMENT\n"[Mono Regular 10 lh150% #586d65] "Authored fixtures for BIO-042. Not experimental measurements. No personal data or licensed publication text."[Regular 14 lh150% #182723]
+T @0,386 780x230 "Validation receipt\n\n"[SemiBold 21 lh150% text/primary] "Required columns\nsource_id, observation, provenance · 3/3 passed\n\nRecords parsed\n3 / Duplicate source IDs: 0\n\nSensitive data scan\nNo flags · Private workspace visibility"[Regular 14 lh150% text/primary]
+T @0,642 780x83 "Upload rights\n\n"[SemiBold 21 lh150% text/primary] "☑ I have permission to upload this file and its provenance is accurate."[Regular 14 lh150% text/primary]
+T @828,0 300x373 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "FORMATS\nCSV / JSONL / PDF\n\nUPLOAD LIMIT\n100 MB\n\nOWNER\nMaya Chen\n\nNEW DATASET\nDS-BIO-07 v1.0\n\nNew bytes create a new version with a SHA-256 hash. Existing snapshots are never replaced.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,1029 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 175x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 143x20 "Create DS-BIO-07 v1.0"[SemiBold 13 lh150% text/on-accent]
+F Action @187,12 76x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 44x20 "Cancel"[SemiBold 13 lh150% text/primary]

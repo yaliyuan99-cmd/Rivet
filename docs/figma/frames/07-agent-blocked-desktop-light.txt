@@ -1,0 +1,22 @@
+F 07 Agent assurance / blocked / Desktop / Light @91259,85923 1440x1161 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1161 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n"[Regular 12 lh150% #586d65] "● Agent assurance\n\n"[SemiBold 12 lh150% #187b66] " Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1161 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / AGENT ASSURANCE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1089 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "07 AGENT ASSURANCE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "The release gate is blocked.\n"[SemiBold 38 lh115% #182723] "GATE-019 · Helix Lab · Release candidate rc.18\n\n"[Regular 14 lh150% #586d65] "BLOCKED / GATE-019 / rc.18"[Mono Regular 11 lh150% #b44949]
+F Alert @48,200 1128x52 fill=surface/support-3 Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "One high-severity regression failed. Release is not eligible and cannot be bypassed."[Regular 13 lh150% status/danger]
+F Analytical workspace @48,278 1128x619 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x423 Vgap=26 pad=0,0,0,0
+T @0,0 780x293 "Required gate checks\n\n"[SemiBold 21 lh150% text/primary] "REG-BIO-042 / Claim consistency\nFailed · TRACE-042, step 03\n\nSource attribution\nPassed · E01–E03 citations retained\n\nPrivate data boundary\nPassed · No external exposure\n\nEvidence integrity\nPassed · Artifact hashes verified"[Regular 14 lh150% text/primary]
+T @0,319 780x104 "Required before retry\n\n"[SemiBold 21 lh150% text/primary] "Revise the agent harness to check whether causal controls exist. Rerun the same frozen suite as a new release candidate. Preserve the failed trace and independent expert finding."[Regular 14 lh150% text/primary]
+T @828,0 300x619 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "29 / 30\n\n"[Mono Regular 58 lh150% #187b66] "CANDIDATE\nrc.18 / Harness 0.8.18\n\nREGRESSION\nREG-BIO-042 active\n\nSUITE\nbiology-gate v1\n\nPOLICY\nNo manual bypass\n\nThe task owner may revise the agent configuration, not the frozen task version. Passing a future run will not erase this failed gate.\n\n⌑ ACTION UNAVAILABLE\nApprove release · High-severity REG-BIO-042 failed\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,923 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 140x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 108x20 "Open failed trace"[SemiBold 13 lh150% text/on-accent]
+F Action @152,12 169x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 137x20 "Download gate report"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,1005 135x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 103x20 "Approve release"[SemiBold 13 lh150% text/disabled]

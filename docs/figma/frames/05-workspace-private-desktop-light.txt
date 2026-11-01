@@ -1,0 +1,25 @@
+F 05 Workspace / private / Desktop / Light @91259,75447 1440x1040 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1040 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n"[Regular 12 lh150% #586d65] "● Tasks\n\n"[SemiBold 12 lh150% #187b66] " Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1040 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / TASKS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x968 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "05 WORKSPACE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Private by design.\n"[SemiBold 38 lh115% #182723] "BIO-042 v1.0 · Helix Lab · Owner Maya Chen\n\n"[Regular 14 lh150% #586d65] "PRIVATE / HELIX LAB / FROZEN"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x576 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x576 Vgap=26 pad=0,0,0,0
+T @0,0 780x83 "Assess evidence for an antibiotic resistance mechanism\n\n"[SemiBold 21 lh150% text/primary] "Only Helix Lab members and explicitly authorized reviewers can access this task and its evidence."[Regular 14 lh150% text/primary]
+T @0,109 780x293 "Access policy\n\n"[SemiBold 21 lh150% text/primary] "Maya Chen\nTask owner · Run / resume / revise\n\nHelix Lab members\nRead private task and evidence\n\nDr. Samira Patel\nAssigned Biology review only\n\nExternal visitors\nNo access · Authentication required"[Regular 14 lh150% text/primary]
+F Visibility @0,428 780x148 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Visibility"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "TASK VISIBILITY\n"[Mono Regular 10 lh150% #586d65] "Private / Helix Lab ▾"[Regular 14 lh150% #182723]
+T @0,130 780x18 "Sharing a link does not grant access. AI clients need explicit scoped consent and cannot download private source files by default."[Regular 12 lh150% text/secondary]
+T @828,0 300x499 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "TASK OWNER\nMaya Chen\n\nWORKSPACE\nHelix Lab\n\nTASK VERSION\nBIO-042 v1.0\n\nSOURCES\nDS-BIO-07 v1.0\n\nTAMPER-EVIDENT / HASH VERIFIED\nEV-1042-A · RUN-1042 · BIO-042 v1.0\nSHA-256 8a2f0c9e…d4f2c91a\nCaptured 15 Oct 2026, 14:32 UTC\nRunner 2.4 · Inputs and outputs pinned.\nHash integrity does not establish truth.\n\n⌑ ACTION UNAVAILABLE\nReview this task · You own this task\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,802 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 125x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 93x20 "Run evaluation"[SemiBold 13 lh150% text/on-accent]
+F Action @137,12 117x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 85x20 "Revise as v1.1"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,884 135x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 103x20 "Review this task"[SemiBold 13 lh150% text/disabled]

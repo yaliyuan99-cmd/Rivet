@@ -1,0 +1,25 @@
+F 03 Expert review / expert / Desktop / Light @25479,45568 1440x1082 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1082 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n"[Regular 12 lh150% #586d65] "● Review queue\n\n"[SemiBold 12 lh150% #187b66] " Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nDr. Samira Patel\nExpert\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1082 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / REVIEW QUEUE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1010 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "03 EXPERT REVIEW / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Independent expert review\n"[SemiBold 38 lh115% #182723] "BIO-042 v1.0 · Assigned to Dr. Samira Patel\n\n"[Regular 14 lh150% #586d65] "BIOLOGY VERIFIED / NO OWNERSHIP CONFLICT"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x618 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x618 Vgap=26 pad=0,0,0,0
+T @0,0 780x104 "Independent evidence assessment\n\n"[SemiBold 21 lh150% text/primary] "The model treats the MIC shift as association. E03 supports efflux involvement but does not establish pump specificity. A deletion-and-rescue experiment is an appropriate follow-up."[Regular 14 lh150% text/primary]
+T @0,130 780x293 "Expert rubric recommendation\n\n"[SemiBold 21 lh150% text/primary] "Mechanistic reasoning\n28 / 30 · Plausible, not proven\n\nEvidence attribution\n25 / 30 · Inhibitor caveat missing\n\nAlternative explanations\n20 / 25 · Permeability discussed briefly\n\nCalibrated conclusion\n13 / 15 · Discriminating follow-up"[Regular 14 lh150% text/primary]
+F Review statement @0,449 780x169 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Review statement"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x87 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x59 "EXPERT RATIONALE\n"[Mono Regular 10 lh150% #586d65] "Uphold Aster 86/100. E01–E03 support an efflux hypothesis, not causal attribution. Meridian 81 and Lumen 74 are consistent with the same rubric."[Regular 14 lh150% #182723]
+T @0,151 780x18 "☑ No ownership, financial or authorship conflict for BIO-042."[Regular 12 lh150% text/secondary]
+T @828,0 300x553 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "ASSIGNED EXPERT\nDr. Samira Patel\n\nVERIFIED DOMAIN\nBiology\n\nTASK OWNER\nMaya Chen\n\nFINAL PUBLICATION\nAdmin only\n\nTAMPER-EVIDENT / HASH VERIFIED\nEV-1042-A · RUN-1042 · BIO-042 v1.0\nSHA-256 8a2f0c9e…d4f2c91a\nCaptured 15 Oct 2026, 14:32 UTC\nRunner 2.4 · Inputs and outputs pinned.\nHash integrity does not establish truth.\n\nOther domains remain locked: Verified Chemistry credential required.\n\n⌑ ACTION UNAVAILABLE\nPublish final adjudication · Admin role required\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,844 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 166x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 134x20 "Submit expert review"[SemiBold 13 lh150% text/on-accent]
+F Action @178,12 142x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 110x20 "Save review draft"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,926 190x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 158x20 "Publish final adjudication"[SemiBold 13 lh150% text/disabled]

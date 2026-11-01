@@ -1,0 +1,27 @@
+F 03 Expert review / adjudication / Desktop / Light @91259,66749 1440x1109 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1109 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x576 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n"[Regular 12 lh150% #586d65] "● Administration\n\n"[SemiBold 12 lh150% #187b66] "\n\n\nAlex Rivera\nAdmin\n\nAdmin session / Audited"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1109 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / ADMINISTRATION / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1037 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "03 EXPERT REVIEW / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Make the final determination\n"[SemiBold 38 lh115% #182723] "ADJ-042 · BIO-042 v1.0 · Expert review submitted\n\n"[Regular 14 lh150% #586d65] "ADMIN / ADJ-042 / REVIEW SUBMITTED"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "Independent Biology review complete. No conflicts declared; evidence hashes match."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x637 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x637 Vgap=26 pad=0,0,0,0
+T @0,0 780x230 "Expert recommendation / REVIEW-042\n\n"[SemiBold 21 lh150% text/primary] "Aster 3.2\n86 / 100 demo · EV-1042-A\n\nMeridian 2.1\n81 / 100 demo · EV-1042-M\n\nLumen 4 Mini\n74 / 100 demo · EV-1042-L"[Regular 14 lh150% text/primary]
+T @0,256 780x104 "Dr. Samira Patel’s finding\n\n"[SemiBold 21 lh150% text/primary] "“Uphold the ordering for this task. The report must retain the inhibitor-specificity caveat, n = 1 limitation and unknown training exposure. These scores cannot be generalized to Biology performance.”"[Regular 14 lh150% text/primary]
+F Final admin determination @0,386 780x251 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Final admin determination"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "DECISION\n"[Mono Regular 10 lh150% #586d65] "Accept expert findings ▾"[Regular 14 lh150% #182723]
+F Field @0,130 780x87 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x59 "RATIONALE\n"[Mono Regular 10 lh150% #586d65] "Uphold all three demo scores. Preserve evidence limits and contamination-scan acknowledgement. Freeze as RPT-BIO-042 v1.0."[Regular 14 lh150% #182723]
+T @0,233 780x18 "☑ Evidence, reviewer eligibility and provenance checks are complete."[Regular 12 lh150% text/secondary]
+T @828,0 300x391 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "ADMINISTRATOR\nAlex Rivera\n\nEXPERT\nDr. Samira Patel\n\nREPORT TO CREATE\nRPT-BIO-042 v1.0\n\nAUDIT DECISION\nAppend-only / ADJ-042\n\nFinalization never overwrites earlier scores or rationale. The source evidence and independent findings remain inspectable.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,941 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 178x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 146x20 "Finalize & freeze report"[SemiBold 13 lh150% text/on-accent]
+F Action @190,12 135x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 103x20 "Return to expert"[SemiBold 13 lh150% text/primary]

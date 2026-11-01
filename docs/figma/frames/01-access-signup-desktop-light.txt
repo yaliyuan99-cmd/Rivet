@@ -1,0 +1,23 @@
+F 01 Access / signup / Desktop / Light @879,45568 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Application @0,0 1440x802 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1440x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1344x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / SECURE ACCESS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1440x730 Vgap=26 pad=40,48,40,48
+T @48,40 1344x134 "01 ACCESS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Make evidence your advantage.\n"[SemiBold 38 lh115% #182723] "Real tasks. Real evaluation. Better AI.\n\n"[Regular 14 lh150% #586d65] "MEMBER ACCESS"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1344x408 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 996x408 Vgap=26 pad=0,0,0,0
+F Create your account @0,0 996x278 Vgap=16 pad=0,0,0,0
+T @0,0 996x32 "Create your account"[SemiBold 21 lh150% text/primary]
+F Field @0,48 996x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 968x38 "FULL NAME\n"[Mono Regular 10 lh150% #586d65] "Maya Chen"[Regular 14 lh150% #182723]
+F Field @0,130 996x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 968x38 "WORK EMAIL\n"[Mono Regular 10 lh150% #586d65] "maya@helixlab.example"[Regular 14 lh150% #182723]
+F Field @0,212 996x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 968x38 "PASSWORD\n"[Mono Regular 10 lh150% #586d65] "•••••••••••••• · Strong"[Regular 14 lh150% #182723]
+T @0,304 996x104 "Your research, your responsibility\n\n"[SemiBold 21 lh150% text/primary] "☑ I agree to the Terms of Service and Privacy Policy.\nAlready have an account? Sign in →"[Regular 14 lh150% text/primary]
+T @1044,0 300x355 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "01 / DEFINE\nFreeze the prompt and rubric before measuring.\n\n02 / TRACE\nInspect every output, source and hash.\n\n03 / REVIEW\nSeparate model claims from expert findings.\n\nVisitors can sign up or sign in only. Tasks, datasets and reports require a verified account.\n\nReal tasks. Real evaluation. Better AI.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,634 1344x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 129x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 97x20 "Create account"[SemiBold 13 lh150% text/on-accent]
+F Action @141,12 168x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 136x20 "Continue with GitHub"[SemiBold 13 lh150% text/primary]

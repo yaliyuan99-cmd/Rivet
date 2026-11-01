@@ -1,0 +1,18 @@
+F 08 External access / expired / Desktop / Light @91259,93609 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Application @0,0 1440x987 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1440x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1344x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / SECURE ACCESS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1440x915 Vgap=26 pad=40,48,40,48
+T @48,40 1344x134 "08 EXTERNAL ACCESS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "This request has expired\n"[SemiBold 38 lh115% #182723] "For your security, consent links are short-lived.\n\n"[Regular 14 lh150% #586d65] "OAUTH-042 / REQUEST EXPIRED"[Mono Regular 11 lh150% #8b5d1d]
+F Alert @48,200 1344x52 fill=surface/support-1 Vgap=0 pad=16,16,16,16
+T @16,16 1312x20 "The consent link expired at 14:45 UTC after ten minutes. No token was issued."[Regular 13 lh150% status/warning]
+F Analytical workspace @48,278 1344x445 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 996x402 Vgap=26 pad=0,0,0,0
+T @0,0 996x293 "This link can no longer approve access\n\n"[SemiBold 21 lh150% text/primary] "Client\nAtlas Research Client\n\nRequest\nOAUTH-042 / Expired\n\nAccount\nMaya Chen / Helix Lab\n\nGranted scopes\nNone"[Regular 14 lh150% text/primary]
+T @0,319 996x83 "Start a fresh authorization\n\n"[SemiBold 21 lh150% text/primary] "Return to Atlas and request a new connection with a new OAuth state and PKCE challenge. Do not reuse this expired consent link."[Regular 14 lh150% text/primary]
+T @1044,0 300x445 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "RESOURCE REQUESTED\nBIO-042 v1.0\n\nDECISION\nExpired / No authorization\n\nACCESS TOKEN\nNot issued\n\nSECURITY BOUNDARY\nNew request required\n\nShort-lived consent links reduce replay risk. Existing permissions and research data remain unchanged.\n\n⌑ ACTION UNAVAILABLE\nApprove expired request · A fresh authorization is required\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,749 1344x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 126x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 94x20 "Return to Atlas"[SemiBold 13 lh150% text/on-accent]
+F Disabled action @48,831 188x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 156x20 "Approve expired request"[SemiBold 13 lh150% text/disabled]

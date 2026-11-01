@@ -1,0 +1,11 @@
+node_modules
+dist
+data/*
+!data/.gitkeep
+.e2e-data
+test-results
+playwright-report
+.env
+.DS_Store
+*.log
+.netlify

@@ -1,0 +1,19 @@
+F 06 Datasets / detail / Desktop / Light @49579,45568 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n Tasks\n\n"[Regular 12 lh150% #586d65] "● Datasets\n\n"[SemiBold 12 lh150% #187b66] " Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x926 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / DATASETS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x854 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "06 DATASETS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Resistance evidence pack\n"[SemiBold 38 lh115% #182723] "DS-BIO-07 v1.0 · Uploaded by Maya Chen · 15 Oct 2026\n\n"[Regular 14 lh150% #586d65] "VALIDATED / PRIVATE / SYNTHETIC"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x532 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x532 Vgap=26 pad=0,0,0,0
+T @0,0 780x230 "Three observations. Explicit limits.\n\n"[SemiBold 21 lh150% text/primary] "E01 / MIC assay\n0.25 → 1.00 µg/mL · Association, not causality\n\nE02 / qPCR\nacrB 3.1× control · Transcript ≠ pump activity\n\nE03 / Inhibitor assay\nPartial MIC reversal · Specificity unknown"[Regular 14 lh150% text/primary]
+T @0,256 780x104 "Source provenance\n\n"[SemiBold 21 lh150% text/primary] "Authored by Maya Chen for this evaluation-design demo. CC0 demo fixtures. Not real laboratory data; never use for clinical or scientific recommendations."[Regular 14 lh150% text/primary]
+T @0,386 780x146 "Verified download\n\n"[SemiBold 21 lh150% text/primary] "CSV downloads include a version manifest and checksum so downstream users can verify the exact source bytes.\n\nSHA-256 b71d024e93f8a6c0172b583ae9d65041\n73d80a29fb6c4e1209a75d3826ec04f1"[Regular 14 lh150% text/primary]
+T @828,0 300x445 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "DATASET\nDS-BIO-07 v1.0\n\nAUTHOR\nMaya Chen\n\nPINNED BY\nBIO-042 v1.0\n\nSIZE\n48 KB / 3 records\n\nCREATED\n15 Oct 2026, 14:10 UTC\n\nNew uploads create a new dataset version. Deleting a library entry cannot erase a source snapshot referenced by frozen evidence.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,758 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 174x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 142x20 "Download CSV · 48 KB"[SemiBold 13 lh150% text/on-accent]
+F Action @186,12 135x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 103x20 "Delete dataset…"[SemiBold 13 lh150% text/primary]

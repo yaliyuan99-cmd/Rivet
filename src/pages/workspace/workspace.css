@@ -1,0 +1,50 @@
+/* The kit has no prefix on a field, so this slice adds one. */
+
+/* "rivet.example/w/helix-lab · Available": host, editable slug and status read as one line. */
+.slug-value {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  font-size: 14px;
+  line-height: 21px;
+  overflow-wrap: anywhere;
+}
+
+/* The input grows with what is typed, using a hidden copy of the value to set its width. */
+.slug-sizer {
+  display: inline-grid;
+  min-width: 3ch;
+  max-width: 100%;
+}
+
+.slug-sizer::after {
+  content: attr(data-value);
+  grid-area: 1 / 1;
+  visibility: hidden;
+  white-space: pre;
+  overflow: hidden;
+}
+
+.slug-sizer .field-control {
+  grid-area: 1 / 1;
+  min-width: 0;
+}
+
+.slug-status {
+  margin-left: 4px;
+}
+
+.inline-action[aria-disabled='true'] {
+  color: var(--disabled);
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+/* Pairs inside a modal keep the modal's quieter text. */
+.modal-body .pairs {
+  gap: 12px;
+}
+
+.modal-body .pairs + p {
+  margin-top: 12px;
+}

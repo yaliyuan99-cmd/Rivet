@@ -1,0 +1,31 @@
+F 03 Expert review / apply / Desktop / Light @91259,60496 1440x1048 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1048 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n"[Regular 12 lh150% #586d65] "● Review queue\n\n"[SemiBold 12 lh150% #187b66] " Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nDr. Samira Patel\nApplicant\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1048 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / REVIEW QUEUE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x976 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "03 EXPERT REVIEW / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Bring your expertise to the evidence.\n"[SemiBold 38 lh115% #182723] "Apply to review Biology evaluations. Credentials are verified by an admin.\n\n"[Regular 14 lh150% #586d65] "REVIEWER APPLICATION / APP-028"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x654 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x654 Vgap=26 pad=0,0,0,0
+F Your domain expertise @0,0 780x545 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Your domain expertise"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "LEGAL NAME\n"[Mono Regular 10 lh150% #586d65] "Dr. Samira Patel"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "INSTITUTIONAL EMAIL\n"[Mono Regular 10 lh150% #586d65] "samira@northbridge.example"[Regular 14 lh150% #182723]
+F Field @0,212 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "DOMAIN REQUESTED\n"[Mono Regular 10 lh150% #586d65] "Biology / Microbiology ▾"[Regular 14 lh150% #182723]
+F Field @0,294 780x87 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x59 "RESEARCH BACKGROUND\n"[Mono Regular 10 lh150% #586d65] "PhD in Microbiology; eight years studying efflux and antimicrobial susceptibility. Expertise in experimental controls, source attribution and mechanistic claims."[Regular 14 lh150% #182723]
+F Field @0,397 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "CREDENTIAL EVIDENCE\n"[Mono Regular 10 lh150% #586d65] "patel-phd-demo.pdf · 1.2 MB · Uploaded"[Regular 14 lh150% #182723]
+F Field @0,479 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "RESEARCH PROFILE\n"[Mono Regular 10 lh150% #586d65] "orcid.example/0000-0002-0420-0280"[Regular 14 lh150% #182723]
+T @0,571 780x83 "Independent review commitment\n\n"[SemiBold 21 lh150% text/primary] "☑ I will declare conflicts and never review my own tasks."[Regular 14 lh150% text/primary]
+T @828,0 300x391 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "IDENTITY EVIDENCE\nRequired\n\nDOMAIN EVIDENCE\nAdmin verification required\n\nREVIEW SCOPE\nVerified domains only\n\nFINAL DECISIONS\nAdmin adjudication\n\nSynthetic application: names, institution and credential documents are demo fixtures, not real credential claims.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,880 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 150x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 118x20 "Submit application"[SemiBold 13 lh150% text/on-accent]
+F Action @162,12 97x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 65x20 "Save draft"[SemiBold 13 lh150% text/primary]

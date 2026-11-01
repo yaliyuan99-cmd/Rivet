@@ -1,0 +1,152 @@
+TEXT STYLES 36
+Rivet/Body/13/Regular/1 | Inter Regular | 13 | lh 150% | ls 0%
+Rivet/Body/13/Regular/15 | Inter Regular | 13 | lh 145% | ls 0%
+Rivet/Body/13/Semi Bold/2 | Inter Semi Bold | 13 | lh 150% | ls 0%
+Rivet/Body/13/Semi Bold/12 | Inter Semi Bold | 13 | lh 145% | ls 0%
+Rivet/Body/13/Medium/35 | Inter Medium | 13 | lh 145% | ls 0%
+Rivet/Body/14/Regular/5 | Inter Regular | 14 | lh 150% | ls 0%
+Rivet/Body/14/Regular/9 | Inter Regular | 14 | lh 145% | ls 0%
+Rivet/Body/14/Medium/28 | Inter Medium | 14 | lh 145% | ls 0%
+Rivet/Body/16/Regular/19 | Inter Regular | 16 | lh 145% | ls 0%
+Rivet/Body/16/Medium/26 | Inter Medium | 16 | lh 145% | ls 0%
+Rivet/Body/19/Semi Bold/36 | Inter Semi Bold | 19 | lh 150% | ls 0%
+Rivet/Supporting/12/Regular/3 | Inter Regular | 12 | lh 150% | ls 0%
+Rivet/Supporting/12/Regular/14 | Inter Regular | 12 | lh 145% | ls 0%
+Rivet/Supporting/12/Semi Bold/13 | Inter Semi Bold | 12 | lh 145% | ls 0%
+Rivet/Supporting/11/Regular/16 | Inter Regular | 11 | lh 145% | ls 0%
+Rivet/Heading/21/Semi Bold/4 | Inter Semi Bold | 21 | lh 150% | ls 0%
+Rivet/Heading/22/Regular/10 | Inter Regular | 22 | lh 145% | ls 0%
+Rivet/Heading/22/Semi Bold/32 | Inter Semi Bold | 22 | lh 145% | ls 0%
+Rivet/Heading/20/Regular/18 | Inter Regular | 20 | lh 145% | ls 0%
+Rivet/Heading/24/Regular/31 | Inter Regular | 24 | lh 145% | ls 0%
+Rivet/Metadata/12/Regular/6 | IBM Plex Mono Regular | 12 | lh 150% | ls 0%
+Rivet/Metadata/12/Regular/25 | IBM Plex Mono Regular | 12 | lh 145% | ls 0%
+Rivet/Metadata/11/Regular/7 | IBM Plex Mono Regular | 11 | lh 145% | ls 0%
+Rivet/Metadata/11/Regular/11 | IBM Plex Mono Regular | 11 | lh 150% | ls 0%
+Rivet/Metadata/11/Regular/21 | IBM Plex Mono Regular | 11 | lh auto | ls 0%
+Rivet/Metadata/11/SemiBold/17 | IBM Plex Mono SemiBold | 11 | lh 150% | ls 0%
+Rivet/Metadata/9/Regular/20 | IBM Plex Mono Regular | 9 | lh auto | ls 0%
+Rivet/Metadata/46/Regular/22 | IBM Plex Mono Regular | 46 | lh 145% | ls 0%
+Rivet/Metadata/46/Regular/30 | IBM Plex Mono Regular | 46 | lh 150% | ls 0%
+Rivet/Metadata/22/Regular/23 | IBM Plex Mono Regular | 22 | lh 150% | ls 0%
+Rivet/Metadata/10/Regular/24 | IBM Plex Mono Regular | 10 | lh 145% | ls 0%
+Rivet/Metadata/10/Regular/27 | IBM Plex Mono Regular | 10 | lh 150% | ls 0%
+Rivet/Metadata/13/Regular/29 | IBM Plex Mono Regular | 13 | lh 150% | ls 0%
+Rivet/Display/44/Regular/8 | Inter Regular | 44 | lh 145% | ls 0%
+Rivet/Display/40/Regular/33 | Inter Regular | 40 | lh 145% | ls 0%
+Rivet/Display/30/Regular/34 | Inter Regular | 30 | lh 145% | ls 0%
+PAINT STYLES 0
+EFFECT STYLES 0
+GRID STYLES 2
+Rivet/Grid/Desktop 12 columns | [{"pattern":"COLUMNS","visible":false,"color":{"r":0.41999998688697815,"g":0.8399999737739563,"b":0.75,"a":0.10000000149011612},"gutterSize":24,"alignment":"STRETCH","count":12,"offset":48,"boundVariables":{}}]
+Rivet/Grid/Mobile 4 columns | [{"pattern":"COLUMNS","visible":false,"color":{"r":0.41999998688697815,"g":0.8399999737739563,"b":0.75,"a":0.10000000149011612},"gutterSize":16,"alignment":"STRETCH","count":4,"offset":20,"boundVariables":{}}]
+VARIABLE COLLECTIONS 4
+== Rivet / Primitives modes: Value vars: 29
+palette/tone-01 [COLOR] Value=#101618
+palette/tone-02 [COLOR] Value=#151e21
+palette/tone-03 [COLOR] Value=#0c1214
+palette/tone-04 [COLOR] Value=#edf2f0
+palette/tone-05 [COLOR] Value=#9aaca9
+palette/tone-06 [COLOR] Value=#2b393c
+palette/tone-07 [COLOR] Value=#6bd6bf
+palette/tone-08 [COLOR] Value=#18352f
+palette/tone-09 [COLOR] Value=#0d2822
+palette/tone-10 [COLOR] Value=#e8bd7e
+palette/tone-11 [COLOR] Value=#ee9a98
+palette/tone-12 [COLOR] Value=#60716f
+palette/tone-13 [COLOR] Value=#f6f8f6
+palette/tone-14 [COLOR] Value=#ffffff
+palette/tone-15 [COLOR] Value=#edf1ee
+palette/tone-16 [COLOR] Value=#182723
+palette/tone-17 [COLOR] Value=#586d65
+palette/tone-18 [COLOR] Value=#d5dfd9
+palette/tone-19 [COLOR] Value=#187b66
+palette/tone-20 [COLOR] Value=#dff1ea
+palette/tone-21 [COLOR] Value=#8b5d1d
+palette/tone-22 [COLOR] Value=#b44949
+palette/tone-23 [COLOR] Value=#8a9992
+palette/tone-24 [COLOR] Value=#f7ecd9
+palette/tone-25 [COLOR] Value=#342b20
+palette/tone-26 [COLOR] Value=#f8e6e5
+palette/tone-27 [COLOR] Value=#382527
+palette/tone-28 [COLOR] Value=#126550
+palette/tone-29 [COLOR] Value=#94e4d0
+== Rivet / Semantic / Dark modes: Dark vars: 15
+background/canvas [COLOR] Dark=alias:palette/tone-01
+surface/default [COLOR] Dark=alias:palette/tone-02
+surface/inset [COLOR] Dark=alias:palette/tone-03
+text/primary [COLOR] Dark=alias:palette/tone-04
+text/secondary [COLOR] Dark=alias:palette/tone-05
+border/default [COLOR] Dark=alias:palette/tone-06
+signal/accent [COLOR] Dark=alias:palette/tone-07
+signal/subtle [COLOR] Dark=alias:palette/tone-08
+text/on-accent [COLOR] Dark=alias:palette/tone-09
+status/warning [COLOR] Dark=alias:palette/tone-10
+status/danger [COLOR] Dark=alias:palette/tone-11
+text/disabled [COLOR] Dark=alias:palette/tone-12
+surface/support-2 [COLOR] Dark=alias:palette/tone-25
+surface/support-4 [COLOR] Dark=alias:palette/tone-27
+surface/support-6 [COLOR] Dark=alias:palette/tone-29
+== Rivet / Semantic / Light modes: Light vars: 15
+background/canvas [COLOR] Light=alias:palette/tone-13
+surface/default [COLOR] Light=alias:palette/tone-14
+surface/inset [COLOR] Light=alias:palette/tone-15
+text/primary [COLOR] Light=alias:palette/tone-16
+text/secondary [COLOR] Light=alias:palette/tone-17
+border/default [COLOR] Light=alias:palette/tone-18
+signal/accent [COLOR] Light=alias:palette/tone-19
+signal/subtle [COLOR] Light=alias:palette/tone-20
+text/on-accent [COLOR] Light=alias:palette/tone-14
+status/warning [COLOR] Light=alias:palette/tone-21
+status/danger [COLOR] Light=alias:palette/tone-22
+text/disabled [COLOR] Light=alias:palette/tone-23
+surface/support-1 [COLOR] Light=alias:palette/tone-24
+surface/support-3 [COLOR] Light=alias:palette/tone-26
+surface/support-5 [COLOR] Light=alias:palette/tone-28
+== Rivet / Metrics modes: Value vars: 44
+space/0 [FLOAT] Value=0
+radius/0 [FLOAT] Value=0
+stroke/1 [FLOAT] Value=1
+space/48 [FLOAT] Value=48
+space/12 [FLOAT] Value=12
+space/40 [FLOAT] Value=40
+space/26 [FLOAT] Value=26
+space/16 [FLOAT] Value=16
+type-size/13 [FLOAT] Value=13
+radius/5 [FLOAT] Value=5
+space/20 [FLOAT] Value=20
+space/32 [FLOAT] Value=32
+space/24 [FLOAT] Value=24
+type-size/12 [FLOAT] Value=12
+type-size/21 [FLOAT] Value=21
+space/18 [FLOAT] Value=18
+type-size/14 [FLOAT] Value=14
+space/8 [FLOAT] Value=8
+space/14 [FLOAT] Value=14
+type-size/11 [FLOAT] Value=11
+type-size/44 [FLOAT] Value=44
+type-size/22 [FLOAT] Value=22
+radius/8 [FLOAT] Value=8
+stroke/0 [FLOAT] Value=0
+space/11 [FLOAT] Value=11
+stroke/1-5 [FLOAT] Value=1.5
+space/3 [FLOAT] Value=3
+stroke/2 [FLOAT] Value=2
+space/7 [FLOAT] Value=7
+space/10 [FLOAT] Value=10
+space/4 [FLOAT] Value=4
+radius/3 [FLOAT] Value=3
+space/6 [FLOAT] Value=6
+type-size/20 [FLOAT] Value=20
+type-size/16 [FLOAT] Value=16
+type-size/9 [FLOAT] Value=9
+type-size/46 [FLOAT] Value=46
+type-size/10 [FLOAT] Value=10
+space/36 [FLOAT] Value=36
+type-size/24 [FLOAT] Value=24
+type-size/40 [FLOAT] Value=40
+type-size/30 [FLOAT] Value=30
+space/28 [FLOAT] Value=28
+type-size/19 [FLOAT] Value=19
+LOCAL COMPONENTS 140
+Rivet / Fields / Light (set), Rivet / Buttons / Light (set), Rivet / Selects / Light (set), Rivet / Checkbox / Light (set), Rivet / Tabs and navigation / Light (set), Rivet / Badges / Light (set), Rivet / Alerts and toasts / Light (set), Rivet / Modal / Light (set), Rivet / Task cards / Light (set), Rivet / Model cards / Light (set), Rivet / Table rows / Light (set), Rivet / Scores / Light (set), Rivet / Confidence intervals / Light (set), Rivet / Evidence / Light (set), Rivet / Progress / Light (set), Rivet / Permission control / Light (set), Rivet / Chat / Light (set), Rivet / Buttons / Dark (set), Rivet / Fields / Dark (set), Rivet / Selects / Dark (set), Rivet / Checkbox / Dark (set), Rivet / Tabs and navigation / Dark (set), Rivet / Badges / Dark (set), Rivet / Alerts and toasts / Dark (set), Rivet / Modal / Dark (set), Rivet / Task cards / Dark (set), Rivet / Model cards / Dark (set), Rivet / Table rows / Dark (set), Rivet / Scores / Dark (set), Rivet / Confidence intervals / Dark (set), Rivet / Evidence / Dark (set), Rivet / Progress / Dark (set), Rivet / Permission control / Dark (set), Rivet / Chat / Dark (set)

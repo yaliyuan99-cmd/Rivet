@@ -1,0 +1,18 @@
+F 06 Datasets / list / Desktop / Light @91259,79943 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n"[Regular 12 lh150% #586d65] "● Datasets\n\n"[SemiBold 12 lh150% #187b66] " Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x880 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / DATASETS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x808 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "06 DATASETS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Data with a paper trail.\n"[SemiBold 38 lh115% #182723] "Helix Lab · Dataset library\n\n"[Regular 14 lh150% #586d65] "DATASET LIBRARY / 3 PRIVATE DATASETS"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x486 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x486 Vgap=26 pad=0,0,0,0
+T @0,0 780x230 "Versioned sources\n\n"[SemiBold 21 lh150% text/primary] "Resistance evidence pack / DS-BIO-07\nv1.0 · 3 records · Attached to BIO-042 · Details / Download\n\nEfflux control checklist / DS-BIO-08\nv1.0 · 12 records · Authored demo · Details / Download\n\nRubric calibration notes / DS-BIO-09\nv0.2 · 8 records · Authored demo · Details / Download"[Regular 14 lh150% text/primary]
+T @0,256 780x230 "Recent library activity\n\n"[SemiBold 21 lh150% text/primary] "14:20 UTC / Task attachment\nDS-BIO-07 v1.0 pinned to BIO-042\n\n14:12 UTC / Validation\n3 records parsed; no missing source IDs\n\n14:10 UTC / Upload\nMaya Chen uploaded resistance-evidence-demo.csv"[Regular 14 lh150% text/primary]
+T @828,0 300x409 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "WORKSPACE\nHelix Lab\n\nVISIBILITY\nPrivate\n\nAUTHOR\nMaya Chen\n\nPROVENANCE\nSynthetic fixtures only\n\nMembers can create and download datasets. Deletion requires dataset ownership or workspace-owner permission. Frozen source snapshots are retained for audit.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,712 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 128x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 96x20 "Upload dataset"[SemiBold 13 lh150% text/on-accent]
+F Action @140,12 143x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 111x20 "Private datasets ▾"[SemiBold 13 lh150% text/primary]

@@ -1,0 +1,202 @@
+F Rivet token specification @88179,45568 1440x1773 fill=background/canvas Vgap=36 pad=48,48,48,48
+T @48,48 1344x17 "12 / FOUNDATIONS / TOKEN SPECIFICATION"[Mono Regular 11 lh150% signal/accent]
+T @48,101 1344x64 "A system for examining evidence."[Regular 44 lh145% text/primary]
+T @48,201 1344x20 "Dark-first, with semantic light equivalents. 4px base rhythm. Restrained teal signals; amber asks for attention; red blocks consequential actions."[Regular 14 lh145% text/secondary]
+F Semantic theme colors @48,257 1344x611 Hgap=24 pad=0,0,0,0
+F Dark theme @0,0 660x611 fill=background/canvas stroke=border/default:1 Vgap=16 pad=24,24,24,24
+T @24,24 612x35 "Dark / Primary"[Regular 24 lh145% text/primary]
+F Color token @24,75 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=background/canvas stroke=border/default:1 r=3
+T @52,5 493x18 "canvas"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#101618"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,119 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=surface/default stroke=border/default:1 r=3
+T @52,5 493x18 "surface"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#151E21"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,163 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=surface/inset stroke=border/default:1 r=3
+T @52,5 493x18 "inset"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#0C1214"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,207 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=text/primary stroke=border/default:1 r=3
+T @52,5 493x18 "text"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#EDF2F0"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,251 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=text/secondary stroke=border/default:1 r=3
+T @52,5 493x18 "muted"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#9AACA9"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,295 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=border/default stroke=border/default:1 r=3
+T @52,5 493x18 "border"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#2B393C"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,339 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=signal/accent stroke=border/default:1 r=3
+T @52,5 493x18 "accent"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#6BD6BF"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,383 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=signal/subtle stroke=border/default:1 r=3
+T @52,5 493x18 "accentSurface"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#18352F"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,427 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=text/on-accent stroke=border/default:1 r=3
+T @52,5 493x18 "onAccent"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#0D2822"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,471 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=status/warning stroke=border/default:1 r=3
+T @52,5 493x18 "warning"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#E8BD7E"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,515 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=status/danger stroke=border/default:1 r=3
+T @52,5 493x18 "danger"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#EE9A98"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,559 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=text/disabled stroke=border/default:1 r=3
+T @52,5 493x18 "disabled"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#60716F"[Mono Regular 12 lh150% text/secondary]
+F Light theme @684,0 660x611 fill=background/canvas stroke=border/default:1 Vgap=16 pad=24,24,24,24
+T @24,24 612x35 "Light / Equivalent"[Regular 24 lh145% text/primary]
+F Color token @24,75 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=background/canvas stroke=border/default:1 r=3
+T @52,5 493x18 "canvas"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#F6F8F6"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,119 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=surface/default stroke=border/default:1 r=3
+T @52,5 493x18 "surface"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#FFFFFF"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,163 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=surface/inset stroke=border/default:1 r=3
+T @52,5 493x18 "inset"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#EDF1EE"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,207 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=text/primary stroke=border/default:1 r=3
+T @52,5 493x18 "text"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#182723"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,251 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=text/secondary stroke=border/default:1 r=3
+T @52,5 493x18 "muted"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#586D65"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,295 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=border/default stroke=border/default:1 r=3
+T @52,5 493x18 "border"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#D5DFD9"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,339 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=signal/accent stroke=border/default:1 r=3
+T @52,5 493x18 "accent"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#187B66"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,383 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=signal/subtle stroke=border/default:1 r=3
+T @52,5 493x18 "accentSurface"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#DFF1EA"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,427 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=surface/default stroke=border/default:1 r=3
+T @52,5 493x18 "onAccent"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#FFFFFF"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,471 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=status/warning stroke=border/default:1 r=3
+T @52,5 493x18 "warning"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#8B5D1D"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,515 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=status/danger stroke=border/default:1 r=3
+T @52,5 493x18 "danger"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#B44949"[Mono Regular 12 lh150% text/secondary]
+F Color token @24,559 612x28 Hgap=16 pad=0,0,0,0
+R Swatch @0,0 36x28 fill=text/disabled stroke=border/default:1 r=3
+T @52,5 493x18 "disabled"[Mono Regular 12 lh150% text/primary]
+T @561,5 51x18 "#8A9992"[Mono Regular 12 lh150% text/secondary]
+F Typography and layout @48,904 1344x472 Hgap=40 pad=0,0,0,0
+F Content @0,0 652x374 Vgap=20 pad=0,0,0,0
+T @0,0 652x32 "Typography / Inter × IBM Plex Mono"[SemiBold 22 lh145% text/primary]
+T @0,52 652x58 "Display / 40–38 / Medium"[Regular 40 lh145% text/primary]
+T @0,130 652x44 "Page title / 30 / Medium"[Regular 30 lh145% text/primary]
+T @0,194 652x29 "Section heading / 20 / Semibold"[Regular 20 lh145% text/primary]
+T @0,243 652x20 "Body / 14 / Regular"[Regular 14 lh145% text/primary]
+T @0,283 652x17 "Supporting text / 12 / Regular"[Regular 12 lh145% text/primary]
+T @0,320 652x17 "METADATA / 11 / MONO / 1.5 LINE HEIGHT"[Mono Regular 11 lh150% signal/accent]
+T @0,357 652x17 "Body line height 1.45 · Minimum contrast target 4.5:1 · Scores use tabular mono numerals."[Regular 12 lh145% text/secondary]
+F Content @692,0 652x472 Vgap=20 pad=0,0,0,0
+T @0,0 652x32 "Grid, rhythm and geometry"[SemiBold 22 lh145% text/primary]
+F Record @0,52 652x68 stroke=border/default:0/0/1/0 Hgap=20 pad=14,0,14,0
+F Record content @0,14 581x40 Vgap=4 pad=0,0,0,0
+T @0,0 581x19 "Desktop"[Medium 13 lh145% text/primary]
+T @0,23 581x17 "216px navigation · 48px content inset · 24px gutter · 12 columns"[Regular 12 lh145% text/secondary]
+F Record value @601,14 51x18 Vgap=6 pad=0,0,0,0
+T @0,0 51x18 "1440 px"[Mono Regular 12 lh150% signal/accent]
+F Record @0,140 652x68 stroke=border/default:0/0/1/0 Hgap=20 pad=14,0,14,0
+F Record content @0,14 588x40 Vgap=4 pad=0,0,0,0
+T @0,0 588x19 "Mobile"[Medium 13 lh145% text/primary]
+T @0,23 588x17 "20px content inset · Single-column evidence stack · 44px controls"[Regular 12 lh145% text/secondary]
+F Record value @608,14 44x18 Vgap=6 pad=0,0,0,0
+T @0,0 44x18 "390 px"[Mono Regular 12 lh150% signal/accent]
+F Record @0,228 652x68 stroke=border/default:0/0/1/0 Hgap=20 pad=14,0,14,0
+F Record content @0,14 524x40 Vgap=4 pad=0,0,0,0
+T @0,0 524x19 "Spacing scale"[Medium 13 lh145% text/primary]
+T @0,23 524x17 "24 / 32 / 48 / 64 · Section breaks use rules, not floating cards."[Regular 12 lh145% text/secondary]
+F Record value @544,14 108x18 Vgap=6 pad=0,0,0,0
+T @0,0 108x18 "4 / 8 / 12 / 16"[Mono Regular 12 lh150% signal/accent]
+F Record @0,316 652x68 stroke=border/default:0/0/1/0 Hgap=20 pad=14,0,14,0
+F Record content @0,14 567x40 Vgap=4 pad=0,0,0,0
+T @0,0 567x19 "Corner radii"[Medium 13 lh145% text/primary]
+T @0,23 567x17 "Tables / controls / dialogs. No decorative pill card containers."[Regular 12 lh145% text/secondary]
+F Record value @587,14 65x18 Vgap=6 pad=0,0,0,0
+T @0,0 65x18 "0 / 5 / 8"[Mono Regular 12 lh150% signal/accent]
+F Record @0,404 652x68 stroke=border/default:0/0/1/0 Hgap=20 pad=14,0,14,0
+F Record content @0,14 567x40 Vgap=4 pad=0,0,0,0
+T @0,0 567x19 "Depth"[Medium 13 lh145% text/primary]
+T @0,23 567x17 "Inset and surface tones establish hierarchy. No default drop shadows."[Regular 12 lh145% text/secondary]
+F Record value @587,14 65x18 Vgap=6 pad=0,0,0,0
+T @0,0 65x18 "1px rules"[Mono Regular 12 lh150% signal/accent]
+T @48,1412 1344x32 "Icon vocabulary / Lucide / 18px / Consistent optical weight"[SemiBold 22 lh145% text/primary]
+F Icon specification @48,1480 1344x137 Hgap=28 pad=0,0,0,0
+F Content @0,0 130x47 Vgap=12 pad=0,0,0,0
+ICON house 20x20 signal/accent
+T @0,32 130x15 "house"[Mono Regular 10 lh150% text/secondary]
+F Content @158,0 130x47 Vgap=12 pad=0,0,0,0
+ICON layers 20x20 signal/accent
+T @0,32 130x15 "layers"[Mono Regular 10 lh150% text/secondary]
+F Content @316,0 130x47 Vgap=12 pad=0,0,0,0
+ICON database 20x20 signal/accent
+T @0,32 130x15 "database"[Mono Regular 10 lh150% text/secondary]
+F Content @474,0 130x62 Vgap=12 pad=0,0,0,0
+ICON chart-no-axes-column-increasing 20x20 signal/accent
+T @0,32 130x30 "chart-no-axes-column-increasing"[Mono Regular 10 lh150% text/secondary]
+F Content @632,0 130x47 Vgap=12 pad=0,0,0,0
+ICON file-chart-column 20x20 signal/accent
+T @0,32 130x15 "file-chart-column"[Mono Regular 10 lh150% text/secondary]
+F Content @790,0 130x47 Vgap=12 pad=0,0,0,0
+ICON workflow 20x20 signal/accent
+T @0,32 130x15 "workflow"[Mono Regular 10 lh150% text/secondary]
+F Content @948,0 130x47 Vgap=12 pad=0,0,0,0
+ICON scan-eye 20x20 signal/accent
+T @0,32 130x15 "scan-eye"[Mono Regular 10 lh150% text/secondary]
+F Content @1106,0 130x47 Vgap=12 pad=0,0,0,0
+ICON sparkles 20x20 signal/accent
+T @0,32 130x15 "sparkles"[Mono Regular 10 lh150% text/secondary]
+F Content @0,90 130x47 Vgap=12 pad=0,0,0,0
+ICON shield-check 20x20 signal/accent
+T @0,32 130x15 "shield-check"[Mono Regular 10 lh150% text/secondary]
+F Content @158,90 130x47 Vgap=12 pad=0,0,0,0
+ICON lock-keyhole 20x20 signal/accent
+T @0,32 130x15 "lock-keyhole"[Mono Regular 10 lh150% text/secondary]
+F Content @316,90 130x47 Vgap=12 pad=0,0,0,0
+ICON copy 20x20 signal/accent
+T @0,32 130x15 "copy"[Mono Regular 10 lh150% text/secondary]
+F Content @474,90 130x47 Vgap=12 pad=0,0,0,0
+ICON download 20x20 signal/accent
+T @0,32 130x15 "download"[Mono Regular 10 lh150% text/secondary]
+F Content @632,90 130x47 Vgap=12 pad=0,0,0,0
+ICON arrow-up-right 20x20 signal/accent
+T @0,32 130x15 "arrow-up-right"[Mono Regular 10 lh150% text/secondary]
+F Content @790,90 130x47 Vgap=12 pad=0,0,0,0
+ICON mail-check 20x20 signal/accent
+T @0,32 130x15 "mail-check"[Mono Regular 10 lh150% text/secondary]
+F Content @948,90 130x47 Vgap=12 pad=0,0,0,0
+ICON github 20x20 signal/accent
+T @0,32 130x15 "github"[Mono Regular 10 lh150% text/secondary]
+F Content @1106,90 130x47 Vgap=12 pad=0,0,0,0
+ICON menu 20x20 signal/accent
+T @0,32 130x15 "menu"[Mono Regular 10 lh150% text/secondary]
+F Alert @48,1653 1344x72 fill=signal/subtle stroke=signal/accent:0/0/0/2 Hgap=12 pad=16,16,16,16
+ICON circle-check 18x18 signal/accent
+F Message @46,16 1282x40 Vgap=4 pad=0,0,0,0
+T @0,0 1282x19 "Permission and evidence rules are part of the design"[SemiBold 13 lh145% signal/accent]
+T @0,23 1282x17 "Disallowed actions stay visible with a reason. Hash verification establishes integrity, not truth. Every synthetic score is labeled as demo. No prototype behavior or native components are implied."[Regular 12 lh145% text/secondary]

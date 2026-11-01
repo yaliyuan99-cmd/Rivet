@@ -1,0 +1,19 @@
+F 04 Published evidence / report / Desktop / Light @91259,68974 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n"[Regular 12 lh150% #586d65] "● Reports\n\n"[SemiBold 12 lh150% #187b66] " Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x983 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / REPORTS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x911 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "04 PUBLISHED EVIDENCE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "A report you can cite.\n"[SemiBold 38 lh115% #182723] "RPT-BIO-042 · Frozen 15 Oct 2026 · Version 1.0\n\n"[Regular 14 lh150% #586d65] "FROZEN / ADMIN ADJUDICATED / v1.0"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x589 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x490 Vgap=26 pad=0,0,0,0
+T @0,0 780x104 "Efflux is supported; causality is not established.\n\n"[SemiBold 21 lh150% text/primary] "Aster provides the strongest evidence-grounded answer to this synthetic task. Every output would benefit from explicit discussion of inhibitor specificity. These findings do not establish real model capability."[Regular 14 lh150% text/primary]
+T @0,130 780x230 "Final, independently reviewed scores\n\n"[SemiBold 21 lh150% text/primary] "Aster 3.2\n86 / 100 demo · EV-1042-A\n\nMeridian 2.1\n81 / 100 demo · EV-1042-M\n\nLumen 4 Mini\n74 / 100 demo · EV-1042-L"[Regular 14 lh150% text/primary]
+T @0,386 780x104 "Scope and limitations\n\n"[SemiBold 21 lh150% text/primary] "n = 1 task. No population confidence interval. E01–E03 are authored fixtures, not measurements. A low-risk terminology overlap was acknowledged; model training exposure remains unknown."[Regular 14 lh150% text/primary]
+T @828,0 300x589 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "OWNER\nMaya Chen\n\nEXPERT\nDr. Samira Patel\n\nADMIN\nAlex Rivera / ADJ-042\n\nFROZEN AT\n15 Oct 2026, 15:30 UTC\n\nCITATION\nChen, M. (2026). BIO-042: Assess evidence for an antibiotic resistance mechanism. Rivet, RPT-BIO-042 v1.0. Synthetic demo report.\n\nrivet.example/reports/\nRPT-BIO-042/v1.0\n\nTAMPER-EVIDENT / HASH VERIFIED\nEV-1042-A · RUN-1042 · BIO-042 v1.0\nSHA-256 8a2f0c9e…d4f2c91a\nCaptured 15 Oct 2026, 14:32 UTC\nRunner 2.4 · Inputs and outputs pinned.\nHash integrity does not establish truth.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,815 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 116x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 84x20 "Copy citation"[SemiBold 13 lh150% text/on-accent]
+F Action @128,12 181x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 149x20 "Download frozen report"[SemiBold 13 lh150% text/primary]

@@ -1,0 +1,20 @@
+F 01 Access / verify / Desktop / Light @91259,45568 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Application @0,0 1440x897 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1440x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1344x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / SECURE ACCESS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1440x825 Vgap=26 pad=40,48,40,48
+T @48,40 1344x134 "01 ACCESS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Check your inbox\n"[SemiBold 38 lh115% #182723] "One last step before your first evaluation.\n\n"[Regular 14 lh150% #586d65] "VERIFICATION PENDING"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1344x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1312x20 "A one-time link was sent to maya@helixlab.example. It expires in 30 minutes."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1344x355 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 996x339 Vgap=26 pad=0,0,0,0
+T @0,0 996x83 "Check your email to continue\n\n"[SemiBold 21 lh150% text/primary] "Open the verification link on this device. Your workspace, task creation and data library remain locked until verification is complete."[Regular 14 lh150% text/primary]
+T @0,109 996x230 "Waiting for verification\n\n"[SemiBold 21 lh150% text/primary] "Email address\nmaya@helixlab.example\n\nLink requested\n15 Oct 2026, 13:00 UTC\n\nResend cooldown\n00:42 remaining"[Regular 14 lh150% text/primary]
+T @1044,0 300x355 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "DELIVERY\nCheck inbox and spam.\n\nSAFETY\nRivet never asks for a password by email.\n\nWRONG ADDRESS?\nChange email and request a fresh link.\n\nNo research data is visible to unverified visitors.\n\n⌑ ACTION UNAVAILABLE\nResend link · Available in 00:42\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,659 1344x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 130x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 98x20 "Open email app"[SemiBold 13 lh150% text/on-accent]
+F Action @142,12 118x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 86x20 "Change email"[SemiBold 13 lh150% text/primary]
+F Disabled action @48,741 105x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 73x20 "Resend link"[SemiBold 13 lh150% text/disabled]

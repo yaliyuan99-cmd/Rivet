@@ -1,0 +1,35 @@
+F 04 Published evidence / leaderboard / Desktop / Light @31379,45568 1440x1088 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1088 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n Tasks\n\n Datasets\n\n"[Regular 12 lh150% #586d65] "● Leaderboards\n\n"[SemiBold 12 lh150% #187b66] " Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1088 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / LEADERBOARDS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1016 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "04 PUBLISHED EVIDENCE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Biology, with uncertainty in view.\n"[SemiBold 38 lh115% #182723] "Illustrative model performance, grounded in inspectable evidence.\n\n"[Regular 14 lh150% #586d65] "BIOLOGY / FROZEN TASKS / 15 OCT 2026"[Mono Regular 11 lh150% #187b66]
+F Alert @48,200 1128x52 fill=signal/subtle Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "Synthetic domain aggregate, not real benchmark results. 24 authored task fixtures; 95% bootstrap intervals."[Regular 13 lh150% signal/accent]
+F Analytical workspace @48,278 1128x616 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x616 Vgap=26 pad=0,0,0,0
+F Mean rubric score / 0–100 @0,0 780x230 Vgap=0 pad=0,0,0,0
+F Table heading @0,0 780x50 stroke=border/default:0/0/1/0 Vgap=0 pad=0,0,18,0
+T @0,0 780x32 "Mean rubric score / 0–100"[SemiBold 21 lh150% text/primary]
+F Table row @0,50 780x60 stroke=border/default:0/0/1/0 Hgap=24 pad=18,0,18,0
+T @0,18 301x21 "Aster 3.2"[Regular 14 lh150% text/primary]
+T @325,18 301x18 "87.4 [83.1, 91.2] n=24"[Mono Regular 12 lh150% signal/accent]
+V 95% confidence interval @650,18 130x24 stroke=signal/accent:2
+F Table row @0,110 780x60 stroke=border/default:0/0/1/0 Hgap=24 pad=18,0,18,0
+T @0,18 301x21 "Meridian 2.1"[Regular 14 lh150% text/primary]
+T @325,18 301x18 "83.1 [78.5, 87.6] n=24"[Mono Regular 12 lh150% signal/accent]
+V 95% confidence interval @650,18 130x24 stroke=signal/accent:2
+F Table row @0,170 780x60 stroke=border/default:0/0/1/0 Hgap=24 pad=18,0,18,0
+T @0,18 301x21 "Lumen 4 Mini"[Regular 14 lh150% text/primary]
+T @325,18 301x18 "77.8 [72.0, 83.4] n=24"[Mono Regular 12 lh150% signal/accent]
+V 95% confidence interval @650,18 130x24 stroke=signal/accent:2
+T @0,256 780x104 "Read the uncertainty\n\n"[SemiBold 21 lh150% text/primary] "Intervals overlap: these synthetic observations do not establish a statistically decisive ordering. Paired, task-level bootstrap; 10,000 resamples; seed 42. No missing runs."[Regular 14 lh150% text/primary]
+T @0,386 780x230 "Inspect the evidence\n\n"[SemiBold 21 lh150% text/primary] "24 tasks / each model\n24 sealed run receipts →\n\nIncluded task / BIO-042 v1.0\nOpen the three model outputs and expert review →\n\nEvidence boundary\nSynthetic fixtures, not real Biology capability claims"[Regular 14 lh150% text/primary]
+T @828,0 300x499 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "DOMAIN FILTER\nBiology / Microbiology\n\nSAMPLE\n24 paired tasks / model\n\nMETRIC\nMean 0–100 rubric score\n\nINTERVAL\n95% bootstrap CI\n\nSNAPSHOT\n15 Oct 2026\n\nBIO-042 contributes one task to this illustrative aggregate. Its individual report has n=1 and no confidence interval.\n\nOwner Maya Chen\nExpert Dr. Samira Patel\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,920 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 184x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 152x20 "Open BIO-042 evidence"[SemiBold 13 lh150% text/on-accent]
+F Action @196,12 151x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 119x20 "Read methodology"[SemiBold 13 lh150% text/primary]

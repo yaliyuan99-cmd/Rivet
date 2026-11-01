@@ -1,0 +1,70 @@
+/* What the kit lacks for the dataset pages. Tokens only. */
+
+/* "Private datasets ▾": a real select drawn as the frame's secondary action. */
+.ds-filter {
+  position: relative;
+  display: inline-flex;
+}
+
+.ds-filter select {
+  appearance: none;
+  min-height: 44px;
+  padding: 11px 34px 11px 16px;
+  background: var(--inset);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  color: var(--text);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ds-filter select:hover {
+  border-color: var(--accent);
+}
+
+.ds-filter select option {
+  background: var(--surface);
+  color: var(--text);
+}
+
+.ds-filter svg {
+  position: absolute;
+  right: 12px;
+  top: 15px;
+  color: var(--accent);
+  pointer-events: none;
+}
+
+/* Long statements stay fully visible at phone width, where the browser supports it. */
+.ds-grow textarea {
+  field-sizing: content;
+}
+
+.ds-hash {
+  overflow-wrap: anywhere;
+}
+
+.ds-failures {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: disc;
+  padding-left: 20px;
+  color: var(--danger);
+  overflow-wrap: anywhere;
+}
+
+.ds-uploading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .ds-filter,
+  .ds-filter select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+F 05 Workspace / create / Desktop / Light @91259,73516 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n"[Regular 12 lh150% #586d65] "● Workspace\n\n"[SemiBold 12 lh150% #187b66] " Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x863 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / WORKSPACE / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x791 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "05 WORKSPACE / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "A shared place for rigorous work.\n"[SemiBold 38 lh115% #182723] "Create a workspace. Keep your research private by default.\n\n"[Regular 14 lh150% #586d65] "NEW WORKSPACE / MEMBER ACCESS"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x469 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x469 Vgap=26 pad=0,0,0,0
+F Create your workspace @0,0 780x360 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Create your workspace"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "WORKSPACE NAME\n"[Mono Regular 10 lh150% #586d65] "Helix Lab"[Regular 14 lh150% #182723]
+F Field @0,130 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "WORKSPACE URL\n"[Mono Regular 10 lh150% #586d65] "rivet.example/w/helix-lab · Available"[Regular 14 lh150% #182723]
+F Field @0,212 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "RESEARCH FOCUS\n"[Mono Regular 10 lh150% #586d65] "Evidence-grounded evaluation for microbiology and antimicrobial resistance."[Regular 14 lh150% #182723]
+F Field @0,294 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "DEFAULT VISIBILITY\n"[Mono Regular 10 lh150% #586d65] "Private / Workspace members only ▾"[Regular 14 lh150% #182723]
+T @0,386 780x83 "Privacy by default\n\n"[SemiBold 21 lh150% text/primary] "☑ Keep new tasks and datasets private. Workspace URLs do not bypass membership checks."[Regular 14 lh150% text/primary]
+T @828,0 300x391 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "WORKSPACE OWNER\nMaya Chen\n\nWORKSPACE ID\nWS-HELIX\n\nINVITE MEMBERS\nOwner only\n\nCREATE TASKS AND DATA\nMembers\n\nWorkspace ownership does not grant administrator powers or expert domain credentials. Task owners retain run, resume and revision permissions.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,695 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 136x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 104x20 "Create Helix Lab"[SemiBold 13 lh150% text/on-accent]
+F Action @148,12 76x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 44x20 "Cancel"[SemiBold 13 lh150% text/primary]

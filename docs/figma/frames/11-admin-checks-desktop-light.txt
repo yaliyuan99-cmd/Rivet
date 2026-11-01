@@ -1,0 +1,20 @@
+F 11 Administration / checks / Desktop / Light @91259,97563 1440x1147 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1147 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x576 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n"[Regular 12 lh150% #586d65] "● Administration\n\n"[SemiBold 12 lh150% #187b66] "\n\n\nAlex Rivera\nAdmin\n\nAdmin session / Audited"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1147 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / ADMINISTRATION / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x1075 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "11 ADMINISTRATION / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Trust is an operational practice.\n"[SemiBold 38 lh115% #182723] "Administration · System checks · 15 Oct 2026, 14:42 UTC\n\n"[Regular 14 lh150% #586d65] "ADMIN / SYSTEM CHECKS / 14:42 UTC"[Mono Regular 11 lh150% #8b5d1d]
+F Alert @48,200 1128x52 fill=surface/support-1 Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "Core integrity passed. One operational warning needs attention."[Regular 13 lh150% status/warning]
+F Analytical workspace @48,278 1128x675 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x675 Vgap=26 pad=0,0,0,0
+T @0,0 780x419 "System check receipts\n\n"[SemiBold 21 lh150% text/primary] "CHECK-291 / Artifact hashes\nPassed · 72 of 72 verified\n\nCHECK-292 / Immutability\nPassed · No frozen-version mutation\n\nCHECK-293 / Private access\nPassed · 18 of 18 boundary cases\n\nCHECK-294 / OAuth state & PKCE\nPassed · 8 of 8 cases\n\nCHECK-295 / Provider timeouts\nWarning · 4.2% demo / Threshold 3%\n\nCHECK-296 / Domain enforcement\nPassed · 12 of 12 cases"[Regular 14 lh150% text/primary]
+T @0,445 780x230 "Operational events\n\n"[SemiBold 21 lh150% text/primary] "RUN-1042 / 14:34 UTC\nSafe checkpoint after provider timeout · Owner can resume\n\nDS-BIO-07 / 14:32 UTC\nSource manifest hash matched\n\nAPP-028 / 13:40 UTC\nBiology credential verified / Dr. Samira Patel"[Regular 14 lh150% text/primary]
+T @828,0 300x391 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "INTEGRITY FAILURES\nBlock runs\n\nPERMISSION FAILURES\nDeny access\n\nTIMEOUT WARNINGS\nSafe checkpoint and retry\n\nOPERATOR\nAlex Rivera / Admin\n\nAll health metrics and check receipts are synthetic fixtures. They do not describe a live production service.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,979 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 154x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 122x20 "Run system checks"[SemiBold 13 lh150% text/on-accent]
+F Action @166,12 138x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 106x20 "Export check log"[SemiBold 13 lh150% text/primary]

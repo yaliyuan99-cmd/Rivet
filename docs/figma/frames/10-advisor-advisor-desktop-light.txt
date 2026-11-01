@@ -1,0 +1,23 @@
+F 10 Audit Advisor / advisor / Desktop / Light @79579,45568 1440x1066 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1066 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x556 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n"[Regular 11 lh150% #586d65] " Home\n\n Tasks\n\n Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n"[Regular 12 lh150% #586d65] "● Audit Advisor\n\n"[SemiBold 12 lh150% #187b66] " Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x1066 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / AUDIT ADVISOR / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x994 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "10 AUDIT ADVISOR / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Ask the evidence.\n"[SemiBold 38 lh115% #182723] "Audit Advisor · Grounded in BIO-042 v1.0, not the open web.\n\n"[Regular 14 lh150% #586d65] "AUDIT ADVISOR / 3 CITED RECORDS"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1128x672 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x672 Vgap=26 pad=0,0,0,0
+T @0,0 780x83 "Maya Chen / 15:38 UTC\n\n"[SemiBold 21 lh150% text/primary] "Why did Aster lose points on evidence attribution? Does the inhibitor result prove efflux caused resistance?"[Regular 14 lh150% text/primary]
+T @0,109 780x167 "Audit Advisor / Evidence-grounded answer\n\n"[SemiBold 21 lh150% text/primary] "No. E03 supports an efflux hypothesis, but not pump-specific causality. Aster received 25/30 for attribution because it omitted inhibitor off-target effects. No pump deletion or rescue control is present. [1]\n\nThe expert upheld the deduction. E01’s MIC shift and E02’s increased acrB expression are consistent with the hypothesis, but alternatives remain. A deletion-and-complementation experiment would be more discriminating. [2, 3]"[Regular 14 lh150% text/primary]
+T @0,302 780x230 "Citations\n\n"[SemiBold 21 lh150% text/primary] "[1] EV-1042-A\nAttribution rationale / 25 of 30\n\n[2] DS-BIO-07 v1.0\nE01–E03 synthetic source records\n\n[3] REVIEW-042\nDr. Samira Patel / Verified Biology"[Regular 14 lh150% text/primary]
+F Ask a follow-up @0,558 780x114 Vgap=16 pad=0,0,0,0
+T @0,0 780x32 "Ask a follow-up"[SemiBold 21 lh150% text/primary]
+F Field @0,48 780x66 fill=surface/inset stroke=border/default:1 r=5 Vgap=0 pad=14,14,14,14
+T @14,14 752x38 "MESSAGE\n"[Mono Regular 10 lh150% #586d65] "Which alternative explanation is least addressed?"[Regular 14 lh150% #182723]
+T @828,0 300x517 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "FROZEN TASK\nBIO-042 v1.0\n\nSOURCE PACK\nDS-BIO-07 v1.0\n\nRUN\nRUN-1042\n\nEXTERNAL WEB\nDisabled\n\nEvidence limit: no raw laboratory data or causal controls are present. This chat cannot establish a scientific mechanism or change adjudicated scores.\n\nTAMPER-EVIDENT / HASH VERIFIED\nEV-1042-A · RUN-1042 · BIO-042 v1.0\nSHA-256 8a2f0c9e…d4f2c91a\nCaptured 15 Oct 2026, 14:32 UTC\nRunner 2.4 · Inputs and outputs pinned.\nHash integrity does not establish truth.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,898 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 108x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 76x20 "Ask Advisor"[SemiBold 13 lh150% text/on-accent]
+F Action @120,12 150x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 118x20 "Copy cited answer"[SemiBold 13 lh150% text/primary]

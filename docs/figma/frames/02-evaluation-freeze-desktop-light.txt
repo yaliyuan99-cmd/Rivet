@@ -1,0 +1,20 @@
+F 02 Evaluation / freeze / Desktop / Light @91259,49110 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Workspace navigation @0,0 216x1024 fill=surface/inset stroke=border/default:0/1/0/0 Vgap=0 pad=32,24,32,24
+T @24,32 168x558 "HELIX LAB\n"[Mono Regular 11 lh150% #187b66] "Private workspace\n\n Home\n\n"[Regular 12 lh150% #586d65] "● Tasks\n\n"[SemiBold 12 lh150% #187b66] " Datasets\n\n Leaderboards\n\n Reports\n\n Agent assurance\n\n Review queue\n\n Audit Advisor\n\n Workspace\n\n Profile\n\n Administration\n\n\nMaya Chen\nMember\n\nAdministration locked\nAdmin role required"[Regular 12 lh150% #586d65]
+F Application @216,0 1224x937 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1224x72 stroke=border/default:0/0/1/0 Hgap=12 pad=0,48,0,48
+T @48,17 1128x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / HELIX LAB / TASKS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1224x865 Vgap=26 pad=40,48,40,48
+T @48,40 1128x134 "02 EVALUATION / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Freeze the evidence contract\n"[SemiBold 38 lh115% #182723] "BIO-042 · Assess evidence for an antibiotic resistance mechanism\n\n"[Regular 14 lh150% #586d65] "FREEZE PREVIEW / v1.0"[Mono Regular 11 lh150% #8b5d1d]
+F Alert @48,200 1128x52 fill=surface/support-1 Vgap=0 pad=16,16,16,16
+T @16,16 1096x20 "One possible terminology overlap. This signal is not proof of training contamination."[Regular 13 lh150% status/warning]
+F Analytical workspace @48,278 1128x465 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 780x465 Vgap=26 pad=0,0,0,0
+T @0,0 780x293 "Contamination check / SCAN-042\n\n"[SemiBold 21 lh150% text/primary] "Exact prompt match\nNo match in scanned indexes.\n\nNear-duplicate phrase\n“increased AcrAB-TolC efflux” · Low risk\n\nSource exposure\nE01–E03 synthetic and private; no public match.\n\nTraining corpus coverage\nNot accessible to Rivet · Unknown"[Regular 14 lh150% text/primary]
+T @0,319 780x146 "Owner acknowledgement\n\n"[SemiBold 21 lh150% text/primary] "☑ The matching phrase is standard terminology. These source records were authored for this synthetic demo. Training exposure cannot be ruled out.\n\n☑ Retain the scan and its limitations with every frozen report."[Regular 14 lh150% text/primary]
+T @828,0 300x391 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "PROMPT AND RUBRIC\n4 criteria / 100 points\n\nSOURCE PACK\nDS-BIO-07 v1.0\n\nMODEL REVISIONS\n3 pinned revisions\n\nIMMUTABLE VERSION\nBIO-042 v1.0\n\nFreezing cannot be undone. The prompt, rubric, data and model selections cannot be overwritten; revisions create a new version.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,769 1128x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 160x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 128x20 "Freeze BIO-042 v1.0"[SemiBold 13 lh150% text/on-accent]
+F Action @172,12 131x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 99x20 "Return to editor"[SemiBold 13 lh150% text/primary]

@@ -1,0 +1,17 @@
+F 08 External access / consent / Desktop / Light @64579,45568 1440x1024 fill=background/canvas Hgap=0 pad=0,0,0,0
+F Application @0,0 1440x863 Vgap=0 pad=0,0,0,0
+F Application bar @0,0 1440x72 stroke=border/default:0/0/1/0 Hgap=0 pad=0,48,0,48
+T @48,17 1344x38 "rivet"[Bold 25 lh150% ls-1 #187b66] " / SECURE ACCESS / SYNTHETIC DEMO / LIGHT"[Mono Regular 10 lh150% #586d65]
+F Page content @0,72 1440x791 Vgap=26 pad=40,48,40,48
+T @48,40 1344x134 "08 EXTERNAL ACCESS / DESKTOP\n\n"[Mono Regular 10 lh150% #187b66] "Connect an AI client\n"[SemiBold 38 lh115% #182723] "Review exactly what this client can access.\n\n"[Regular 14 lh150% #586d65] "OAUTH-042 / MAYA CHEN / HELIX LAB"[Mono Regular 11 lh150% #187b66]
+F Analytical workspace @48,200 1344x469 Hgap=48 pad=0,0,0,0
+F Evidence workbench @0,0 996x469 Vgap=26 pad=0,0,0,0
+T @0,0 996x104 "Atlas Research Client requests access\n\n"[SemiBold 21 lh150% text/primary] "client_atlas_demo · External AI client\nDeveloper Atlas Tools · Synthetic demo integration"[Regular 14 lh150% text/primary]
+T @0,130 996x230 "Requested scopes / BIO-042 only\n\n"[SemiBold 21 lh150% text/primary] "tasks:read\nRead the frozen task definition; no workspace discovery.\n\nreports:read\nRead RPT-BIO-042 and evidence metadata; no private source files.\n\nadvisor:query\nAsk Audit Advisor within authorized task evidence."[Regular 14 lh150% text/primary]
+T @0,386 996x83 "No write or destructive access\n\n"[SemiBold 21 lh150% text/primary] "This client cannot run, revise, delete or review tasks; manage members; or read unrelated datasets. It never receives your password."[Regular 14 lh150% text/primary]
+T @1044,0 300x409 "CONTEXT & PROVENANCE\n\n"[Mono Regular 10 lh150% #187b66] "RESOURCE BOUNDARY\nBIO-042 v1.0 only\n\nTOKEN DURATION\n1 hour / No offline access\n\nSECURITY\nPKCE S256 / State verified\n\nREDIRECT\natlas.example/oauth/callback\n\nApprove only if you recognize this client. Current permissions are checked on every request. Revocation stops future access; it cannot retract data already received.\n\nRIVET / SYNTHETIC DEMO\nAll scores, sources and findings are authored examples. Not real benchmark claims or scientific evidence."[Regular 12 lh150% #586d65]
+F Actions @48,695 1344x56 Hgap=12 pad=12,0,0,0
+F Action @0,12 133x44 fill=signal/accent stroke=signal/accent:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 101x20 "Approve access"[SemiBold 13 lh150% text/on-accent]
+F Action @145,12 116x44 fill=surface/inset stroke=border/default:1 r=5 Hgap=0 pad=12,16,12,16
+T @16,12 84x20 "Deny request"[SemiBold 13 lh150% text/primary]
